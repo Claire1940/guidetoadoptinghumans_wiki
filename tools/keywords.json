@@ -1,47 +1,85 @@
 {
+  "topic_name": "guide to adopting humans",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "guide to adopting humans beginner guide",
+        "guide to adopting humans complete guide",
+        "guide to adopting humans adoption guide",
+        "guide to adopting humans how to adopt",
+        "guide to adopting humans tips and tricks",
+        "guide to adopting humans things to know before adopting",
+        "guide to adopting humans first steps",
+        "guide to adopting humans advanced guide"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "manhwa",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "guide to adopting humans manhwa",
+        "guide to adopting humans manga"
       ]
     },
     {
-      "category": "Items",
+      "category": "humans",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "guide to adopting humans types",
+        "guide to adopting humans personalities",
+        "guide to adopting humans traits",
+        "guide to adopting humans compatibility",
+        "guide to adopting humans best human",
+        "guide to adopting humans human ranking"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "care",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "guide to adopting humans care guide",
+        "guide to adopting humans daily care",
+        "guide to adopting humans emotional support",
+        "guide to adopting humans relationship guide",
+        "guide to adopting humans communication tips",
+        "guide to adopting humans training guide"
       ]
     },
     {
-      "category": "Building",
+      "category": "housing",
       "keywords": [
-        "lucid blocks qualia"
+        "guide to adopting humans housing guide",
+        "guide to adopting humans home setup",
+        "guide to adopting humans room design",
+        "guide to adopting humans living space",
+        "guide to adopting humans customization guide"
       ]
     },
     {
-      "category": "Support",
+      "category": "process",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "guide to adopting humans adoption process",
+        "guide to adopting humans requirements",
+        "guide to adopting humans application guide",
+        "guide to adopting humans preparation guide",
+        "guide to adopting humans beginner checklist"
+      ]
+    },
+    {
+      "category": "community",
+      "keywords": [
+        "guide to adopting humans reddit",
+        "guide to adopting humans discord",
+        "guide to adopting humans discussions"
+      ]
+    },
+    {
+      "category": "updates",
+      "keywords": [
+        "guide to adopting humans updates",
+        "guide to adopting humans news",
+        "guide to adopting humans events"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 38,
+  "content_count_after_merge": 38
 }

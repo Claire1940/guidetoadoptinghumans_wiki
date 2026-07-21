@@ -35,25 +35,25 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['beginner', 'first steps', 'how to adopt', 'tips', 'starter'],
+  lucidBlocksApotheosisCrafting: ['matching', 'compatibility', 'traits', 'types', 'personalities'],
+  lucidBlocksToolsAndWeapons: ['equipment', 'tools', 'gear', 'scanner', 'translator'],
+  lucidBlocksStorageAndInventory: ['supply', 'storage', 'daily care', 'preparation', 'checklist'],
+  lucidBlocksQualiaAndBaseBuilding: ['housing', 'home setup', 'room design', 'living space', 'customization'],
+  lucidBlocksWorldRegions: ['civilization', 'sector', 'culture', 'events', 'news'],
+  lucidBlocksCreaturesAndEnemies: ['stress', 'challenge', 'behavior', 'emotional support', 'communication'],
+  lucidBlocksMobilityGear: ['transport', 'travel', 'outdoor', 'carrier', 'safety'],
+  lucidBlocksFarmingAndGrowth: ['growth', 'milestone', 'development', 'bonding', 'relationship'],
+  lucidBlocksBestEarlyUnlocks: ['beginner', 'first steps', 'starter', 'preparation', 'checklist'],
+  lucidBlocksAchievementTracker: ['achievement', 'milestone', 'tracker', 'progression'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['access', 'platform', 'availability', 'faq', 'news'],
+  lucidBlocksSteamDeckAndController: ['device', 'mobile', 'reading', 'reader'],
+  lucidBlocksSettingsAndAccessibility: ['settings', 'accessibility', 'display', 'theme'],
+  lucidBlocksUpdatesAndPatchNotes: ['update', 'news', 'patch', 'events'],
+  lucidBlocksCrashFixAndTroubleshooting: ['troubleshoot', 'issue', 'fix', 'problem', 'help'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['lucid', 'blocks', 'guide', 'adopting', 'humans', 'human', 'wiki', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,10 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of theme prefix)
+  const themeStripRegex = /(?:guide to adopting humans|lucid blocks?)\s*/g
+  const strippedQuery = normalizedQuery.replace(themeStripRegex, '').trim()
+  const strippedTitle = normalizedTitle.replace(themeStripRegex, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

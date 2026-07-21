@@ -60,543 +60,543 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "The Adoption Universe",
+    "description": "Explore a fictional sci-fi universe where advanced alien civilizations study, adopt, and raise humans as companions. Learn the rules of interspecies adoption, decode human traits, master daily care, and meet the strange cultures that take humans in."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Adoption",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to adopt, raise, and understand humans across the known civilizations",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Adoption Basics",
+        "description": "First steps, eligibility, and early preparation for new guardians"
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Matching System",
+        "description": "Compatibility rules, trait pairing, and reroll logic"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Guardian Equipment",
+        "description": "Translators, scanners, synthesizers, and care tools"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Supply Management",
+        "description": "Food, medicine, and comfort supply storage"
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Living Space Setup",
+        "description": "Habitat design, rooms, and home customization"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Adopting Civilizations",
+        "description": "The alien sectors and cultures that take humans in"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Challenges & Risks",
+        "description": "Stress, culture shock, and behavioral hazards"
       },
       {
         "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Transport Gear",
+        "description": "Pods, carriers, and safe travel setup"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Growth Tracking",
+        "description": "Milestones, bonding stages, and development"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "First-Week Priorities",
+        "description": "Essential unlocks for brand-new guardians"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Guardian Milestones",
+        "description": "Bonding, training, and care achievements"
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Access & Availability",
+        "description": "Platform, language, and reading questions"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Reading & Devices",
+        "description": "How to read the guide on any device"
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Settings & Accessibility",
+        "description": "Display, theme, and reading options"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Universe Updates",
+        "description": "New chapters, rules, and lore additions"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Troubleshooting",
+        "description": "Common issues and how to resolve them"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "Beginner Adoption Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Start by understanding how adoption eligibility, preparation, and first contact connect. The Guide to Adopting Humans universe rewards patient guardians, so early progress comes from researching civilizations, preparing your home, and building trust from the very first meeting.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Research Before You Commit",
+          "description": "Compare adopting civilizations, study their adoption rules, and confirm your eligibility before submitting any application. Early progress is less about speed and more about choosing the right culture for your situation."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Submit a Complete Application",
+          "description": "A complete, honest application is one of the most important early milestones. It determines your guardian tier and which human types you are allowed to match with."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Prepare Your Home First",
+          "description": "Habitat readiness is one of the most useful early goals. A popular early route is setting up core living quarters, a feeding station, and a calm safe zone before first contact."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Build a Bonding Journal",
+          "description": "Keep track of successful interactions in your journal. Every human reacts differently, so writing down what works saves a lot of time during the adjustment period."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Adoption matching does not follow a fixed trait recipe, compatibility is scored dynamically.",
+        "Different civilizations reveal completely different human types, so exploring cultures unlocks new options.",
+        "Care tools and translator gear become a major quality-of-life boost once you start unlocking them.",
+        "Early adjustment difficulties are normal, but routines, supplies, and trust-building snowball fast once your first bonding milestones land."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "Compatibility Matching System",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "The matching system is the universe's unrestricted compatibility engine. Instead of memorizing a fixed pairing table, you analyze traits, observe the result, and build your own matchmaking knowledge over time.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Dynamic Compatibility",
+          "description": "The matching system lets you pair guardian profiles with human types without needing to follow a fixed trait recipe."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Multiple Good Outcomes",
+          "description": "Different trait combinations often push toward certain results. Community discoveries show that similar profiles can still lead to calm, energetic, or highly compatible matches."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Journal-First Matching",
+          "description": "The best way to learn matching is to track your successful pairings. Your journal quickly becomes your own compatibility reference."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Community-Tested Early Pairings",
+          "description": "Popular early examples include patient guardians with curious humans, structured homes with routine-loving types, and experienced caregivers with high-need profiles."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Complete your first match",
+        "Reach a high-compatibility pairing",
+        "Unlock a rare human type"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "Guardian Tools and Equipment",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "The Guide to Adopting Humans universe mixes official care gear with community-discovered utility tools. The best setup is usually a blend of clear communication, safe handling, and one dependable health-monitoring option.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Universal Translator",
+          "type": "Communication Tool",
+          "description": "A fast and reliable early device that bridges the language gap between guardian and human. Players use it to speed up early bonding."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Health Scanner",
+          "type": "Monitoring Tool",
+          "description": "A practical early device that reads vitals, stress, and nutrition levels so problems are caught before they escalate."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Nutrient Synthesizer",
+          "type": "Care Tool",
+          "description": "A dependable food-preparation unit that covers daily feeding routines without constant resupply."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Calming Field Generator",
+          "type": "Comfort Tool",
+          "description": "An official device that softens stress spikes and makes high-anxiety moments far easier to manage."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Habitat Climate Unit",
+          "type": "Environment Tool",
+          "description": "An official device that keeps temperature, light, and air inside the living space stable and comfortable."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Activity Tracker",
+          "type": "Monitoring Tool",
+          "description": "An official device that logs movement, rest, and play patterns to help you fine-tune daily routines."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Locator Beacon",
+          "type": "Safety Tool",
+          "description": "An official safety item that prevents lost-human situations during outdoor travel or exploration."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "First-Aid Kit",
+          "type": "Care Tool",
+          "description": "Officially highlighted as part of the core care set and useful for handling minor injuries or sudden illness."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "Supply and Resource Storage",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Supply pressure starts early in the adoption journey, so building storage should be one of your first goals. Several real guardian-tested solutions already stand out.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Food Reserves",
+          "role": "Daily Supply Storage",
+          "description": "Food reserves are one of the earliest practical storage answers and are treated by guardians as the main pantry-style container for daily meals."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Medical Cabinet",
+          "role": "Emergency Storage",
+          "description": "A medical cabinet is another confirmed storage option. A shared early setup uses one sealed compartment and one restock log."
         },
         {
-          "name": "Personal Qualia",
+          "name": "Comfort Item Cache",
           "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "description": "Once established, your comfort cache becomes a natural place to organize toys, clothing, and personalization items, expanding your care options."
         },
         {
           "name": "Journal Tracking",
           "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "description": "Recording supply usage in your journal reduces waste and makes restocking far easier to plan."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Prioritize one dependable storage option before hoarding rare comfort items.",
+        "Build around your main living quarters once it becomes available.",
+        "Keep food, medicine, clothing, and activity supplies separated so restocking is easier to plan.",
+        "Use your journal as part of supply management, not just bonding discovery."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Living Space and Habitat Setup",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "A well-designed living space is one of the most important progression milestones in the universe. It gives your human a personal area to rest, store belongings, and gradually turn a strange new world into a real home.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Core Living Quarters",
+          "description": "Setting up a dedicated living space is an early milestone that gives your human a reliable place to return to while exploring the wider habitat."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Storage-First Layout",
+          "description": "Many guardians start using the living space as a storage hub before turning it into a larger home with organized rest, feeding, and play zones."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Creative Personalization",
+          "description": "The universe supports creative habitat design, and guardians are already using living spaces to build personalized rooms and comforting layouts."
         },
         {
           "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "description": "A strong base helps you separate rest areas, feeding stations, supply storage, and activity zones so your next care upgrades are easier to plan."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Establish a living space",
+        "Store supplies safely",
+        "Expand from utility to comfort",
+        "Use base space to support bonding and routines"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Adopting Civilizations",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "The universe spans many civilizations, so guardians keep discovering new adopting cultures and their unique rules. A few named sectors are already showing up in milestones and community discussions.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "The Core Accord",
+          "type": "Central Civilization",
+          "description": "The Core Accord is already known among guardians as the most regulated sector, associated with strict eligibility checks and formal adoption contracts."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Veyra Expanse",
+          "type": "Frontier Sector",
+          "description": "The Veyra Expanse is important enough to have its own milestone path, making it one of the clearest named frontier cultures available to new guardians."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Solen Enclave",
+          "type": "Adoption Hub",
+          "description": "Guardians are already using the Solen Enclave as a place to match with rare human types, store shared supplies, and experiment with more advanced pairings."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Mire Belt",
+          "type": "Challenge Zone",
+          "description": "The Mire Belt is shared by guardians as a useful training location, especially for handling difficult behaviors and earning care experience."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Challenges and Risk Factors",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "The universe mixes everyday care with real difficulty. Official guides and community posts point to a world full of behavioral challenges, environmental hazards, and a few standout risks guardians remember quickly.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Stress Spikes",
+          "role": "Behavioral Risk",
+          "description": "Stress spikes are one of the officially named risks in the universe and part of the core emotional challenge roster."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Culture Shock",
+          "role": "Adjustment Risk",
+          "description": "Culture shock is another officially named difficulty and helps define why the early adjustment period matters so much."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Escape Attempts",
+          "role": "Safety Risk",
+          "description": "Escape attempts are presented as part of the universe's more tense and unpredictable risk lineup, especially during travel."
         },
         {
-          "name": "Colossal Spiders",
+          "name": "Illness",
           "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "description": "Illness is one of the most immediately feared risks in community discussions and is clearly a memorable danger without a health scanner."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Bonding Regression",
+          "role": "Named Setback",
+          "description": "Bonding regression is notable enough to have its own milestone, which makes it one of the clearest setbacks a guardian can face."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
+          "name": "Routine Disruption",
+          "role": "Interactable Factor",
+          "description": "Routine disruptions are not only part of daily care, they can also be redirected, giving guardians a more active role than passive risks."
         },
         {
-          "name": "Blasphemous Creature",
+          "name": "Severe Meltdown",
           "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "description": "The severe meltdown is tied to a dedicated care milestone, marking it as a significant crisis encounter that tests preparation."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Transport and Travel Gear",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Travel upgrades are one of the biggest quality-of-life jumps in the universe. Once you unlock your first transport tools, outdoor trips become faster, safer, and much more rewarding.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Transport Pod",
+          "type": "Travel Tool",
+          "description": "The transport pod is one of the clearest travel milestones in the universe and has its own dedicated achievement."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Harness Carrier",
+          "type": "Carry Gear",
+          "description": "The harness carrier opens up much smoother short-distance travel and is another major progression milestone with its own achievement."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Outdoor Suit",
+          "type": "Protection Tool",
+          "description": "Outdoor suits are officially highlighted as part of the travel toolkit for keeping humans safe in unfamiliar environments."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Locator Beacon",
+          "type": "Safety Gear",
+          "description": "Locator beacons are one of the officially highlighted safety tools and expand how confidently you can explore new areas."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Climate Cloak",
+          "type": "Comfort Gear",
+          "description": "Climate cloaks are officially listed as part of the core travel set for handling harsh weather during outings."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "First-Aid Kit",
+          "type": "Emergency Gear",
+          "description": "First-aid kits are both officially highlighted and linked to a travel milestone, making them part of the core safety progression."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Deploy a transport pod",
+        "Travel with the harness carrier",
+        "Equip an outdoor suit",
+        "Carry a field first-aid kit"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Growth and Development Tracking",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in the universe. Development tracking is not only about logging milestones, but also about setting up repeatable care routines that keep bonding, health, and skill-building flowing.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Bonding Stages",
+          "description": "Tracking bonding stages is a real milestone in the universe, and reaching a stable trust level is part of the same growth path."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Skill Building",
+          "description": "A practical early growth loop is setting up daily activity sessions, which unlock small skill gains and steady development over time."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Health Sustain",
+          "description": "Growth tracking becomes much stronger once you can consistently log nutrition, rest, and stress signals to catch problems early."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Care Routine",
+          "description": "The best growth setup supports more than milestones. It should feed your bonding, training, supply planning, and future care experiments."
         }
       ],
       "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+        "Log your first bonding stage",
+        "Reach a stable trust level",
+        "Create repeatable daily routines",
+        "Turn growth tracking into long-term progression"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Best Early Adoption Priorities",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early priorities are the ones that improve safety, supplies, and trust. In the Guide to Adopting Humans universe, a few practical unlocks can make the entire rest of the journey much smoother.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "Core Living Quarters",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "As soon as you set up a dedicated living space, your adoption becomes much more stable. It acts as a reliable hub for rest, storage, and routine."
         },
         {
-          "name": "Frost Pick",
+          "name": "Universal Translator",
           "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "description": "A fast and reliable early communication tool. It is one of the most useful unlocks for accelerating early bonding."
         },
         {
-          "name": "Cache Cube",
+          "name": "Food Reserves",
           "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "description": "Supply pressure starts early, so getting your first dependable pantry-style storage is a major quality-of-life upgrade."
         },
         {
-          "name": "Hookshot",
+          "name": "Health Scanner",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "description": "The health scanner is one of the clearest safety milestones in the universe and quickly makes daily care much more predictable."
         },
         {
-          "name": "Glider Glove",
+          "name": "Calming Field Generator",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "description": "The calming field adds another major comfort boost and makes high-stress moments far easier to manage."
         },
         {
-          "name": "Projectile Wand or Bombs",
+          "name": "Locator Beacon or First-Aid Kit",
           "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "description": "A safety tool or first-aid option gives you a dependable answer to travel risks and sudden health emergencies."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Guardian Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "The Guide to Adopting Humans universe currently tracks guardian milestones across bonding, care, training, and growth progression.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "First Contact",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "title": "Guardian α",
+              "description": "Submit your first application."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "title": "Guardian γ",
+              "description": "Complete your first home inspection."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "title": "Guardian δ",
+              "description": "Pass the readiness evaluation."
             },
             {
-              "title": "Angel ε",
+              "title": "Guardian ε",
               "description": "Hidden achievement."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Bonding and Matching",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "title": "Bond α",
+              "description": "Complete your first match."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "title": "Bond β",
+              "description": "Reach a high-compatibility pairing."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "title": "Bond γ",
+              "description": "Unlock a rare human type."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "title": "Archon β",
+              "description": "Earn your human's trust."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Care and Equipment",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "title": "Care α",
+              "description": "Equip a calming field generator."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "title": "Care β",
+              "description": "Deploy a transport pod."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "title": "Archon α",
+              "description": "Equip a universal translator."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "title": "Archon γ",
+              "description": "Carry a field first-aid kit."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
+          "name": "Behavior and Setbacks",
           "achievements": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "title": "Calm Response",
+              "description": "Defuse a severe meltdown."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "title": "Archon δ",
+              "description": "Recover from a bonding regression."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
+              "title": "Guardian β",
+              "description": "Prevent an escape attempt."
             },
             {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "title": "Reunion",
+              "description": "Reunite after a lost-human event."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
+          "name": "Growth and Routine",
           "achievements": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "title": "Growth α",
+              "description": "Log your first bonding stage."
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
+              "title": "Growth β",
+              "description": "Reach a stable trust level."
             },
             {
-              "title": "Dominion δ",
+              "title": "Growth δ",
               "description": "Hidden achievement."
             }
           ]
@@ -604,152 +604,152 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Access and Availability FAQ",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core access and availability questions readers keep asking about the Guide to Adopting Humans universe.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is Guide to Adopting Humans a real game?",
+          "answer": "No. Guide to Adopting Humans is a fictional universe and fan wiki, not a commercial game."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "Is there an official release or app?",
+          "answer": "No. There is no official app, client, or paid release. The wiki itself is the main resource."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "Where can I read the Guide to Adopting Humans content?",
+          "answer": "All content is available right here on the wiki, free to read in your browser."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Does the wiki cost anything to use?",
+          "answer": "No. The wiki is free to read and does not require any payment or account."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "question": "Does the wiki work on mobile devices?",
+          "answer": "Yes. The site is responsive and works well on phones and tablets, though longer guides are easier to read on larger screens."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "question": "Does the wiki work on e-readers?",
+          "answer": "Yes. The text-focused layout renders well on most e-readers and reading-mode browsers."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Does the wiki support dark mode?",
+          "answer": "Yes. A dark theme is available and can be toggled from the site header."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
+          "question": "Are there official social channels?",
+          "answer": "Official channels are still pending. Community discussion currently happens on fan-run spaces."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
+          "question": "Is the wiki available in other languages?",
+          "answer": "Yes. The wiki is available in multiple languages, with more added over time."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "Will the wiki keep getting updates?",
+          "answer": "Yes. New guides, human types, and lore entries are added regularly as the universe expands."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Reading and Devices FAQ",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "The wiki can be read on almost any device, but the default setup may benefit from a few adjustments on smaller screens.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "Does the wiki work well on phones?",
+          "answer": "Yes. The layout is responsive, though very long guides are more comfortable on tablets or desktop."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "What should I do if the menu is hard to use on a small screen?",
+          "answer": "Use the mobile menu toggle in the header to open the navigation drawer for easier access."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "Does the wiki support keyboard navigation?",
+          "answer": "Yes. Links and menus can be navigated with a keyboard for accessibility."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Is offline reading possible?",
+          "answer": "Yes. Most browsers let you save a page for offline reading through their built-in reader or download features."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "What is the best way to read long guides?",
+          "answer": "A desktop or tablet in dark mode gives the smoothest experience for longer articles and tier lists."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Settings and Accessibility",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "The wiki already has a few practical settings and accessibility notes that matter immediately when readers first open a guide.",
       "settings": [
         {
-          "name": "Display Settings",
+          "name": "Dark Mode",
           "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "description": "The theme toggle includes a dark mode that reduces eye strain during long reading sessions."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Responsive Layout",
+          "type": "Device Support",
+          "description": "The layout adapts to phones, tablets, and desktops so content stays readable on any screen size."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
+          "name": "Language Switching",
           "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "description": "The site supports multiple languages and lets readers switch locales from the header."
+        },
+        {
+          "name": "Keyboard Navigation",
+          "type": "Accessibility",
+          "description": "Menus and links are keyboard-navigable, and the text-focused layout works well with screen readers."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Universe Updates and Patch Notes",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "The Guide to Adopting Humans universe is already receiving regular content additions, new guides, and small lore updates.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "New Human Types Added",
+          "type": "Content Update",
+          "description": "Several new human types and trait profiles were added to the matching system."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
+          "title": "Care Guide Expansion",
           "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "description": "A batch of daily-care and troubleshooting guides was released for new guardians."
         },
         {
-          "title": "Post-Launch Content Support",
+          "title": "Ongoing Lore Expansion",
           "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "description": "More civilizations and story chapters are planned, with content rolling out as the universe grows."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Troubleshooting and Common Issues",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "Most reading and display issues should be checked in a simple order: connection, cache, browser, and device.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Check Your Connection",
+          "description": "If a page fails to load, refresh first and test again on a stable network connection."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Clear Browser Cache",
+          "description": "Old cached files can cause layout issues. Clearing the cache and reloading usually resolves display problems."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Try a Different Browser",
+          "description": "If the layout looks broken, switch to an up-to-date browser such as Chrome, Firefox, or Edge."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Switch Device or Screen Size",
+          "description": "If menus feel cramped, try a larger screen or use the mobile menu toggle for easier access."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Report the Issue",
+          "description": "If a guide still does not load correctly, share the page link and device details through the official community channels."
         }
       ]
     }
@@ -757,31 +757,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Guide to Adopting Humans",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Guide to Adopting Humans a real game?",
+        "answer": "No. Guide to Adopting Humans is a fictional sci-fi universe and fan-made wiki, not a commercial game or app."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the matching system in Guide to Adopting Humans?",
+        "answer": "The matching system is the universe's dynamic compatibility engine. Instead of following fixed pairings, you analyze traits and discover which guardian profiles and human types fit best."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I read Guide to Adopting Humans?",
+        "answer": "All content is available right here on the wiki, free to read in your browser with no payment or account required."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does the wiki cost anything?",
+        "answer": "No. The Guide to Adopting Humans wiki is completely free to read."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does the wiki support mobile and dark mode?",
+        "answer": "Yes. The site is fully responsive and includes a dark theme toggle for comfortable reading on phones, tablets, and desktops."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Will the wiki keep getting updates?",
+        "answer": "Yes. New guides, human types, and lore entries are added regularly as the universe expands."
       }
     ]
   },
