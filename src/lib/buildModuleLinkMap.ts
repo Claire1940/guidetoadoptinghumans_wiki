@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  beginnerGuide: { field: 'steps', nameKey: 'title' },
+  humanTypesTierList: { field: 'tiers', nameKey: 'title' },
+  careGuide: { field: 'cards', nameKey: 'title' },
+  adoptionProcess: { field: 'steps', nameKey: 'title' },
+  personalityGuide: { field: 'rows', nameKey: 'personality' },
+  housingGuide: { field: 'cards', nameKey: 'title' },
+  eventsAndUpdates: { field: 'items', nameKey: 'title' },
+  tipsAndTricks: { field: 'cards', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['beginner', 'first steps', 'how to adopt', 'tips', 'starter'],
-  lucidBlocksApotheosisCrafting: ['matching', 'compatibility', 'traits', 'types', 'personalities'],
-  lucidBlocksToolsAndWeapons: ['equipment', 'tools', 'gear', 'scanner', 'translator'],
-  lucidBlocksStorageAndInventory: ['supply', 'storage', 'daily care', 'preparation', 'checklist'],
-  lucidBlocksQualiaAndBaseBuilding: ['housing', 'home setup', 'room design', 'living space', 'customization'],
-  lucidBlocksWorldRegions: ['civilization', 'sector', 'culture', 'events', 'news'],
-  lucidBlocksCreaturesAndEnemies: ['stress', 'challenge', 'behavior', 'emotional support', 'communication'],
-  lucidBlocksMobilityGear: ['transport', 'travel', 'outdoor', 'carrier', 'safety'],
-  lucidBlocksFarmingAndGrowth: ['growth', 'milestone', 'development', 'bonding', 'relationship'],
-  lucidBlocksBestEarlyUnlocks: ['beginner', 'first steps', 'starter', 'preparation', 'checklist'],
-  lucidBlocksAchievementTracker: ['achievement', 'milestone', 'tracker', 'progression'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['access', 'platform', 'availability', 'faq', 'news'],
-  lucidBlocksSteamDeckAndController: ['device', 'mobile', 'reading', 'reader'],
-  lucidBlocksSettingsAndAccessibility: ['settings', 'accessibility', 'display', 'theme'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'news', 'patch', 'events'],
-  lucidBlocksCrashFixAndTroubleshooting: ['troubleshoot', 'issue', 'fix', 'problem', 'help'],
+  beginnerGuide: ['beginner', 'first steps', 'how to adopt', 'tips', 'starter'],
+  humanTypesTierList: ['matching', 'compatibility', 'traits', 'types', 'personalities', 'tier'],
+  careGuide: ['care', 'daily routine', 'emotional support', 'training', 'relationship'],
+  adoptionProcess: ['adoption', 'application', 'process', 'matching', 'steps'],
+  personalityGuide: ['personality', 'behavior', 'communication', 'traits'],
+  housingGuide: ['housing', 'home setup', 'room design', 'living space', 'customization'],
+  eventsAndUpdates: ['events', 'update', 'news', 'seasonal', 'patch'],
+  tipsAndTricks: ['tips', 'tricks', 'strategy', 'advanced', 'mistakes'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', 'guide', 'adopting', 'humans', 'human', 'wiki', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['guide', 'adopting', 'humans', 'human', 'wiki', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,7 +62,7 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
   let score = 0
 
   // Exact phrase match in title (stripped of theme prefix)
-  const themeStripRegex = /(?:guide to adopting humans|lucid blocks?)\s*/g
+  const themeStripRegex = /(?:guide to adopting humans)\s*/g
   const strippedQuery = normalizedQuery.replace(themeStripRegex, '').trim()
   const strippedTitle = normalizedTitle.replace(themeStripRegex, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {

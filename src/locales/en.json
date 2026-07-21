@@ -64,692 +64,338 @@
     "description": "Explore a fictional sci-fi universe where advanced alien civilizations study, adopt, and raise humans as companions. Learn the rules of interspecies adoption, decode human traits, master daily care, and meet the strange cultures that take humans in."
   },
   "tools": {
-    "title": "Adoption",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to adopt, raise, and understand humans across the known civilizations",
+    "title": "Guide to Adopting Humans",
+    "titleHighlight": "Wiki Resources",
+    "subtitle": "Everything you need to adopt, raise, and understand humans across the known civilizations of the Guide to Adopting Humans universe.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Adoption Basics",
+        "title": "Guide to Adopting Humans Beginner Guide",
         "description": "First steps, eligibility, and early preparation for new guardians"
       },
       {
-        "icon": "Sparkles",
-        "title": "Matching System",
-        "description": "Compatibility rules, trait pairing, and reroll logic"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Guardian Equipment",
-        "description": "Translators, scanners, synthesizers, and care tools"
-      },
-      {
-        "icon": "Package",
-        "title": "Supply Management",
-        "description": "Food, medicine, and comfort supply storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Living Space Setup",
-        "description": "Habitat design, rooms, and home customization"
-      },
-      {
-        "icon": "Eye",
-        "title": "Adopting Civilizations",
-        "description": "The alien sectors and cultures that take humans in"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Challenges & Risks",
-        "description": "Stress, culture shock, and behavioral hazards"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Transport Gear",
-        "description": "Pods, carriers, and safe travel setup"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Growth Tracking",
-        "description": "Milestones, bonding stages, and development"
+        "icon": "Users",
+        "title": "Guide to Adopting Humans Human Types Tier List",
+        "description": "Compatibility rankings, trait pairings, and adoption difficulty"
       },
       {
         "icon": "Star",
-        "title": "First-Week Priorities",
-        "description": "Essential unlocks for brand-new guardians"
+        "title": "Guide to Adopting Humans Care Guide",
+        "description": "Daily routines, emotional support, training, and relationship care"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Guardian Milestones",
-        "description": "Bonding, training, and care achievements"
+        "title": "Guide to Adopting Humans Adoption Process",
+        "description": "Application, evaluation, matching, and long-term bonding"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Access & Availability",
-        "description": "Platform, language, and reading questions"
+        "icon": "Eye",
+        "title": "Guide to Adopting Humans Personality Guide",
+        "description": "How different humans behave, communicate, and respond to care"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Reading & Devices",
-        "description": "How to read the guide on any device"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings & Accessibility",
-        "description": "Display, theme, and reading options"
+        "icon": "Home",
+        "title": "Guide to Adopting Humans Housing Guide",
+        "description": "Living spaces, room setup, upgrades, and comfort design"
       },
       {
         "icon": "Clock",
-        "title": "Universe Updates",
-        "description": "New chapters, rules, and lore additions"
+        "title": "Guide to Adopting Humans Events and Updates",
+        "description": "Seasonal activities, system updates, and new universe content"
       },
       {
-        "icon": "Shield",
-        "title": "Troubleshooting",
-        "description": "Common issues and how to resolve them"
+        "icon": "Sparkles",
+        "title": "Guide to Adopting Humans Tips and Tricks",
+        "description": "Advanced strategies, hidden mechanics, and common mistakes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Beginner Adoption Guide",
+    "beginnerGuide": {
+      "title": "Guide to Adopting Humans Beginner Guide",
+      "eyebrow": "Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by understanding how adoption eligibility, preparation, and first contact connect. The Guide to Adopting Humans universe rewards patient guardians, so early progress comes from researching civilizations, preparing your home, and building trust from the very first meeting.",
+      "intro": "This beginner guide explains the complete starting experience in the Guide to Adopting Humans universe, including preparing a suitable environment, selecting adoption preferences, completing early interactions, and building a stable relationship through daily activities.",
       "steps": [
         {
-          "title": "Research Before You Commit",
-          "description": "Compare adopting civilizations, study their adoption rules, and confirm your eligibility before submitting any application. Early progress is less about speed and more about choosing the right culture for your situation."
+          "title": "Prepare Your Adoption Space",
+          "description": "Create a comfortable living area with essential furniture, personal items, and interaction spaces before beginning the adoption process."
         },
         {
-          "title": "Submit a Complete Application",
-          "description": "A complete, honest application is one of the most important early milestones. It determines your guardian tier and which human types you are allowed to match with."
+          "title": "Complete Adoption Registration",
+          "description": "Review available human profiles, understand compatibility information, and complete the initial adoption requirements."
         },
         {
-          "title": "Prepare Your Home First",
-          "description": "Habitat readiness is one of the most useful early goals. A popular early route is setting up core living quarters, a feeding station, and a calm safe zone before first contact."
+          "title": "Meet Your Adopted Human",
+          "description": "Start the first interaction phase by learning preferences, personality traits, and communication styles."
         },
         {
-          "title": "Build a Bonding Journal",
-          "description": "Keep track of successful interactions in your journal. Every human reacts differently, so writing down what works saves a lot of time during the adjustment period."
+          "title": "Build Daily Routines",
+          "description": "Maintain satisfaction through regular conversations, activities, care actions, and relationship-building events."
+        },
+        {
+          "title": "Unlock Relationship Progression",
+          "description": "Increase trust levels to access new interactions, customization options, and advanced adoption features."
         }
       ],
       "quickTips": [
-        "Adoption matching does not follow a fixed trait recipe, compatibility is scored dynamically.",
-        "Different civilizations reveal completely different human types, so exploring cultures unlocks new options.",
-        "Care tools and translator gear become a major quality-of-life boost once you start unlocking them.",
-        "Early adjustment difficulties are normal, but routines, supplies, and trust-building snowball fast once your first bonding milestones land."
+        "Eligibility checks and a complete application decide your guardian tier and matching pool.",
+        "A prepared living space with rest, feeding, and interaction zones speeds up the first meeting.",
+        "Track what works with each human in a bonding journal to refine your daily care.",
+        "Early trust milestones unlock new interactions and customization options faster than rushing."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Compatibility Matching System",
+    "humanTypesTierList": {
+      "title": "Guide to Adopting Humans Human Types Tier List",
+      "eyebrow": "Tier List",
+      "displayType": "tierGrid",
+      "intro": "This tier list organizes human types in the Guide to Adopting Humans universe by their relationship requirements, adaptability, personality balance, and overall adoption difficulty.",
+      "tiers": [
+        {
+          "tier": "S Tier",
+          "title": "Balanced Human Types",
+          "description": "Highly adaptable humans with stable personalities and strong compatibility across different living environments."
+        },
+        {
+          "tier": "A Tier",
+          "title": "Independent Human Types",
+          "description": "Reliable choices for adopters who prefer lower maintenance routines and flexible interaction schedules."
+        },
+        {
+          "tier": "B Tier",
+          "title": "Specialized Human Types",
+          "description": "Humans with unique preferences that provide rewarding interactions but require more specific care strategies."
+        },
+        {
+          "tier": "C Tier",
+          "title": "Challenging Human Types",
+          "description": "More demanding personalities that require advanced communication skills and additional relationship management."
+        }
+      ]
+    },
+    "careGuide": {
+      "title": "Guide to Adopting Humans Care Guide",
+      "eyebrow": "Care Guide",
       "displayType": "cards",
-      "intro": "The matching system is the universe's unrestricted compatibility engine. Instead of memorizing a fixed pairing table, you analyze traits, observe the result, and build your own matchmaking knowledge over time.",
+      "intro": "This Guide to Adopting Humans care guide covers the main care mechanics required to keep adopted humans comfortable, satisfied, and emotionally connected through consistent management.",
       "cards": [
         {
-          "name": "Dynamic Compatibility",
-          "description": "The matching system lets you pair guardian profiles with human types without needing to follow a fixed trait recipe."
+          "title": "Daily Needs Management",
+          "description": "Handle basic daily activities, schedules, and essential requirements to maintain a healthy relationship state."
         },
         {
-          "name": "Multiple Good Outcomes",
-          "description": "Different trait combinations often push toward certain results. Community discoveries show that similar profiles can still lead to calm, energetic, or highly compatible matches."
+          "title": "Emotional Support",
+          "description": "Improve trust and happiness through conversations, encouragement, and personalized interactions."
         },
         {
-          "name": "Journal-First Matching",
-          "description": "The best way to learn matching is to track your successful pairings. Your journal quickly becomes your own compatibility reference."
+          "title": "Environment Customization",
+          "description": "Adjust living spaces with suitable decorations, furniture, and comfort upgrades."
         },
         {
-          "name": "Community-Tested Early Pairings",
-          "description": "Popular early examples include patient guardians with curious humans, structured homes with routine-loving types, and experienced caregivers with high-need profiles."
-        }
-      ],
-      "milestones": [
-        "Complete your first match",
-        "Reach a high-compatibility pairing",
-        "Unlock a rare human type"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Guardian Tools and Equipment",
-      "displayType": "itemCards",
-      "intro": "The Guide to Adopting Humans universe mixes official care gear with community-discovered utility tools. The best setup is usually a blend of clear communication, safe handling, and one dependable health-monitoring option.",
-      "items": [
-        {
-          "name": "Universal Translator",
-          "type": "Communication Tool",
-          "description": "A fast and reliable early device that bridges the language gap between guardian and human. Players use it to speed up early bonding."
+          "title": "Training and Development",
+          "description": "Guide personal growth through activities, learning opportunities, and relationship milestones."
         },
         {
-          "name": "Health Scanner",
-          "type": "Monitoring Tool",
-          "description": "A practical early device that reads vitals, stress, and nutrition levels so problems are caught before they escalate."
-        },
-        {
-          "name": "Nutrient Synthesizer",
-          "type": "Care Tool",
-          "description": "A dependable food-preparation unit that covers daily feeding routines without constant resupply."
-        },
-        {
-          "name": "Calming Field Generator",
-          "type": "Comfort Tool",
-          "description": "An official device that softens stress spikes and makes high-anxiety moments far easier to manage."
-        },
-        {
-          "name": "Habitat Climate Unit",
-          "type": "Environment Tool",
-          "description": "An official device that keeps temperature, light, and air inside the living space stable and comfortable."
-        },
-        {
-          "name": "Activity Tracker",
-          "type": "Monitoring Tool",
-          "description": "An official device that logs movement, rest, and play patterns to help you fine-tune daily routines."
-        },
-        {
-          "name": "Locator Beacon",
-          "type": "Safety Tool",
-          "description": "An official safety item that prevents lost-human situations during outdoor travel or exploration."
-        },
-        {
-          "name": "First-Aid Kit",
-          "type": "Care Tool",
-          "description": "Officially highlighted as part of the core care set and useful for handling minor injuries or sudden illness."
+          "title": "Relationship Maintenance",
+          "description": "Prevent relationship decline by maintaining regular communication and completing interaction events."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Supply and Resource Storage",
-      "displayType": "solutionCards",
-      "intro": "Supply pressure starts early in the adoption journey, so building storage should be one of your first goals. Several real guardian-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Food Reserves",
-          "role": "Daily Supply Storage",
-          "description": "Food reserves are one of the earliest practical storage answers and are treated by guardians as the main pantry-style container for daily meals."
-        },
-        {
-          "name": "Medical Cabinet",
-          "role": "Emergency Storage",
-          "description": "A medical cabinet is another confirmed storage option. A shared early setup uses one sealed compartment and one restock log."
-        },
-        {
-          "name": "Comfort Item Cache",
-          "role": "Long-Term Storage Hub",
-          "description": "Once established, your comfort cache becomes a natural place to organize toys, clothing, and personalization items, expanding your care options."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording supply usage in your journal reduces waste and makes restocking far easier to plan."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare comfort items.",
-        "Build around your main living quarters once it becomes available.",
-        "Keep food, medicine, clothing, and activity supplies separated so restocking is easier to plan.",
-        "Use your journal as part of supply management, not just bonding discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Living Space and Habitat Setup",
-      "displayType": "cards",
-      "intro": "A well-designed living space is one of the most important progression milestones in the universe. It gives your human a personal area to rest, store belongings, and gradually turn a strange new world into a real home.",
-      "cards": [
-        {
-          "name": "Core Living Quarters",
-          "description": "Setting up a dedicated living space is an early milestone that gives your human a reliable place to return to while exploring the wider habitat."
-        },
-        {
-          "name": "Storage-First Layout",
-          "description": "Many guardians start using the living space as a storage hub before turning it into a larger home with organized rest, feeding, and play zones."
-        },
-        {
-          "name": "Creative Personalization",
-          "description": "The universe supports creative habitat design, and guardians are already using living spaces to build personalized rooms and comforting layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate rest areas, feeding stations, supply storage, and activity zones so your next care upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Establish a living space",
-        "Store supplies safely",
-        "Expand from utility to comfort",
-        "Use base space to support bonding and routines"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Adopting Civilizations",
-      "displayType": "regionCards",
-      "intro": "The universe spans many civilizations, so guardians keep discovering new adopting cultures and their unique rules. A few named sectors are already showing up in milestones and community discussions.",
-      "regions": [
-        {
-          "name": "The Core Accord",
-          "type": "Central Civilization",
-          "description": "The Core Accord is already known among guardians as the most regulated sector, associated with strict eligibility checks and formal adoption contracts."
-        },
-        {
-          "name": "Veyra Expanse",
-          "type": "Frontier Sector",
-          "description": "The Veyra Expanse is important enough to have its own milestone path, making it one of the clearest named frontier cultures available to new guardians."
-        },
-        {
-          "name": "Solen Enclave",
-          "type": "Adoption Hub",
-          "description": "Guardians are already using the Solen Enclave as a place to match with rare human types, store shared supplies, and experiment with more advanced pairings."
-        },
-        {
-          "name": "Mire Belt",
-          "type": "Challenge Zone",
-          "description": "The Mire Belt is shared by guardians as a useful training location, especially for handling difficult behaviors and earning care experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Challenges and Risk Factors",
-      "displayType": "creatureCards",
-      "intro": "The universe mixes everyday care with real difficulty. Official guides and community posts point to a world full of behavioral challenges, environmental hazards, and a few standout risks guardians remember quickly.",
-      "creatures": [
-        {
-          "name": "Stress Spikes",
-          "role": "Behavioral Risk",
-          "description": "Stress spikes are one of the officially named risks in the universe and part of the core emotional challenge roster."
-        },
-        {
-          "name": "Culture Shock",
-          "role": "Adjustment Risk",
-          "description": "Culture shock is another officially named difficulty and helps define why the early adjustment period matters so much."
-        },
-        {
-          "name": "Escape Attempts",
-          "role": "Safety Risk",
-          "description": "Escape attempts are presented as part of the universe's more tense and unpredictable risk lineup, especially during travel."
-        },
-        {
-          "name": "Illness",
-          "role": "Major Threat",
-          "description": "Illness is one of the most immediately feared risks in community discussions and is clearly a memorable danger without a health scanner."
-        },
-        {
-          "name": "Bonding Regression",
-          "role": "Named Setback",
-          "description": "Bonding regression is notable enough to have its own milestone, which makes it one of the clearest setbacks a guardian can face."
-        },
-        {
-          "name": "Routine Disruption",
-          "role": "Interactable Factor",
-          "description": "Routine disruptions are not only part of daily care, they can also be redirected, giving guardians a more active role than passive risks."
-        },
-        {
-          "name": "Severe Meltdown",
-          "role": "Elite Threat",
-          "description": "The severe meltdown is tied to a dedicated care milestone, marking it as a significant crisis encounter that tests preparation."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Transport and Travel Gear",
-      "displayType": "itemCards",
-      "intro": "Travel upgrades are one of the biggest quality-of-life jumps in the universe. Once you unlock your first transport tools, outdoor trips become faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Transport Pod",
-          "type": "Travel Tool",
-          "description": "The transport pod is one of the clearest travel milestones in the universe and has its own dedicated achievement."
-        },
-        {
-          "name": "Harness Carrier",
-          "type": "Carry Gear",
-          "description": "The harness carrier opens up much smoother short-distance travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Outdoor Suit",
-          "type": "Protection Tool",
-          "description": "Outdoor suits are officially highlighted as part of the travel toolkit for keeping humans safe in unfamiliar environments."
-        },
-        {
-          "name": "Locator Beacon",
-          "type": "Safety Gear",
-          "description": "Locator beacons are one of the officially highlighted safety tools and expand how confidently you can explore new areas."
-        },
-        {
-          "name": "Climate Cloak",
-          "type": "Comfort Gear",
-          "description": "Climate cloaks are officially listed as part of the core travel set for handling harsh weather during outings."
-        },
-        {
-          "name": "First-Aid Kit",
-          "type": "Emergency Gear",
-          "description": "First-aid kits are both officially highlighted and linked to a travel milestone, making them part of the core safety progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Deploy a transport pod",
-        "Travel with the harness carrier",
-        "Equip an outdoor suit",
-        "Carry a field first-aid kit"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Growth and Development Tracking",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in the universe. Development tracking is not only about logging milestones, but also about setting up repeatable care routines that keep bonding, health, and skill-building flowing.",
-      "sections": [
-        {
-          "name": "Bonding Stages",
-          "description": "Tracking bonding stages is a real milestone in the universe, and reaching a stable trust level is part of the same growth path."
-        },
-        {
-          "name": "Skill Building",
-          "description": "A practical early growth loop is setting up daily activity sessions, which unlock small skill gains and steady development over time."
-        },
-        {
-          "name": "Health Sustain",
-          "description": "Growth tracking becomes much stronger once you can consistently log nutrition, rest, and stress signals to catch problems early."
-        },
-        {
-          "name": "Care Routine",
-          "description": "The best growth setup supports more than milestones. It should feed your bonding, training, supply planning, and future care experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Log your first bonding stage",
-        "Reach a stable trust level",
-        "Create repeatable daily routines",
-        "Turn growth tracking into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Best Early Adoption Priorities",
-      "displayType": "priorityCards",
-      "intro": "The strongest early priorities are the ones that improve safety, supplies, and trust. In the Guide to Adopting Humans universe, a few practical unlocks can make the entire rest of the journey much smoother.",
-      "priorities": [
-        {
-          "name": "Core Living Quarters",
-          "priority": "Essential",
-          "description": "As soon as you set up a dedicated living space, your adoption becomes much more stable. It acts as a reliable hub for rest, storage, and routine."
-        },
-        {
-          "name": "Universal Translator",
-          "priority": "Very High",
-          "description": "A fast and reliable early communication tool. It is one of the most useful unlocks for accelerating early bonding."
-        },
-        {
-          "name": "Food Reserves",
-          "priority": "Very High",
-          "description": "Supply pressure starts early, so getting your first dependable pantry-style storage is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Health Scanner",
-          "priority": "High",
-          "description": "The health scanner is one of the clearest safety milestones in the universe and quickly makes daily care much more predictable."
-        },
-        {
-          "name": "Calming Field Generator",
-          "priority": "High",
-          "description": "The calming field adds another major comfort boost and makes high-stress moments far easier to manage."
-        },
-        {
-          "name": "Locator Beacon or First-Aid Kit",
-          "priority": "High",
-          "description": "A safety tool or first-aid option gives you a dependable answer to travel risks and sudden health emergencies."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Guardian Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "The Guide to Adopting Humans universe currently tracks guardian milestones across bonding, care, training, and growth progression.",
-      "groups": [
-        {
-          "name": "First Contact",
-          "achievements": [
-            {
-              "title": "Guardian α",
-              "description": "Submit your first application."
-            },
-            {
-              "title": "Guardian γ",
-              "description": "Complete your first home inspection."
-            },
-            {
-              "title": "Guardian δ",
-              "description": "Pass the readiness evaluation."
-            },
-            {
-              "title": "Guardian ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Bonding and Matching",
-          "achievements": [
-            {
-              "title": "Bond α",
-              "description": "Complete your first match."
-            },
-            {
-              "title": "Bond β",
-              "description": "Reach a high-compatibility pairing."
-            },
-            {
-              "title": "Bond γ",
-              "description": "Unlock a rare human type."
-            },
-            {
-              "title": "Archon β",
-              "description": "Earn your human's trust."
-            }
-          ]
-        },
-        {
-          "name": "Care and Equipment",
-          "achievements": [
-            {
-              "title": "Care α",
-              "description": "Equip a calming field generator."
-            },
-            {
-              "title": "Care β",
-              "description": "Deploy a transport pod."
-            },
-            {
-              "title": "Archon α",
-              "description": "Equip a universal translator."
-            },
-            {
-              "title": "Archon γ",
-              "description": "Carry a field first-aid kit."
-            }
-          ]
-        },
-        {
-          "name": "Behavior and Setbacks",
-          "achievements": [
-            {
-              "title": "Calm Response",
-              "description": "Defuse a severe meltdown."
-            },
-            {
-              "title": "Archon δ",
-              "description": "Recover from a bonding regression."
-            },
-            {
-              "title": "Guardian β",
-              "description": "Prevent an escape attempt."
-            },
-            {
-              "title": "Reunion",
-              "description": "Reunite after a lost-human event."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Routine",
-          "achievements": [
-            {
-              "title": "Growth α",
-              "description": "Log your first bonding stage."
-            },
-            {
-              "title": "Growth β",
-              "description": "Reach a stable trust level."
-            },
-            {
-              "title": "Growth δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Access and Availability FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core access and availability questions readers keep asking about the Guide to Adopting Humans universe.",
-      "faqs": [
-        {
-          "question": "Is Guide to Adopting Humans a real game?",
-          "answer": "No. Guide to Adopting Humans is a fictional universe and fan wiki, not a commercial game."
-        },
-        {
-          "question": "Is there an official release or app?",
-          "answer": "No. There is no official app, client, or paid release. The wiki itself is the main resource."
-        },
-        {
-          "question": "Where can I read the Guide to Adopting Humans content?",
-          "answer": "All content is available right here on the wiki, free to read in your browser."
-        },
-        {
-          "question": "Does the wiki cost anything to use?",
-          "answer": "No. The wiki is free to read and does not require any payment or account."
-        },
-        {
-          "question": "Does the wiki work on mobile devices?",
-          "answer": "Yes. The site is responsive and works well on phones and tablets, though longer guides are easier to read on larger screens."
-        },
-        {
-          "question": "Does the wiki work on e-readers?",
-          "answer": "Yes. The text-focused layout renders well on most e-readers and reading-mode browsers."
-        },
-        {
-          "question": "Does the wiki support dark mode?",
-          "answer": "Yes. A dark theme is available and can be toggled from the site header."
-        },
-        {
-          "question": "Are there official social channels?",
-          "answer": "Official channels are still pending. Community discussion currently happens on fan-run spaces."
-        },
-        {
-          "question": "Is the wiki available in other languages?",
-          "answer": "Yes. The wiki is available in multiple languages, with more added over time."
-        },
-        {
-          "question": "Will the wiki keep getting updates?",
-          "answer": "Yes. New guides, human types, and lore entries are added regularly as the universe expands."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Reading and Devices FAQ",
-      "displayType": "accordion",
-      "intro": "The wiki can be read on almost any device, but the default setup may benefit from a few adjustments on smaller screens.",
-      "faqs": [
-        {
-          "question": "Does the wiki work well on phones?",
-          "answer": "Yes. The layout is responsive, though very long guides are more comfortable on tablets or desktop."
-        },
-        {
-          "question": "What should I do if the menu is hard to use on a small screen?",
-          "answer": "Use the mobile menu toggle in the header to open the navigation drawer for easier access."
-        },
-        {
-          "question": "Does the wiki support keyboard navigation?",
-          "answer": "Yes. Links and menus can be navigated with a keyboard for accessibility."
-        },
-        {
-          "question": "Is offline reading possible?",
-          "answer": "Yes. Most browsers let you save a page for offline reading through their built-in reader or download features."
-        },
-        {
-          "question": "What is the best way to read long guides?",
-          "answer": "A desktop or tablet in dark mode gives the smoothest experience for longer articles and tier lists."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "The wiki already has a few practical settings and accessibility notes that matter immediately when readers first open a guide.",
-      "settings": [
-        {
-          "name": "Dark Mode",
-          "type": "Comfort Option",
-          "description": "The theme toggle includes a dark mode that reduces eye strain during long reading sessions."
-        },
-        {
-          "name": "Responsive Layout",
-          "type": "Device Support",
-          "description": "The layout adapts to phones, tablets, and desktops so content stays readable on any screen size."
-        },
-        {
-          "name": "Language Switching",
-          "type": "Localization",
-          "description": "The site supports multiple languages and lets readers switch locales from the header."
-        },
-        {
-          "name": "Keyboard Navigation",
-          "type": "Accessibility",
-          "description": "Menus and links are keyboard-navigable, and the text-focused layout works well with screen readers."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Universe Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "The Guide to Adopting Humans universe is already receiving regular content additions, new guides, and small lore updates.",
-      "entries": [
-        {
-          "title": "New Human Types Added",
-          "type": "Content Update",
-          "description": "Several new human types and trait profiles were added to the matching system."
-        },
-        {
-          "title": "Care Guide Expansion",
-          "type": "Hotfix",
-          "description": "A batch of daily-care and troubleshooting guides was released for new guardians."
-        },
-        {
-          "title": "Ongoing Lore Expansion",
-          "type": "Roadmap Note",
-          "description": "More civilizations and story chapters are planned, with content rolling out as the universe grows."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Troubleshooting and Common Issues",
+    "adoptionProcess": {
+      "title": "Guide to Adopting Humans Adoption Process",
+      "eyebrow": "Adoption Process",
       "displayType": "steps",
-      "intro": "Most reading and display issues should be checked in a simple order: connection, cache, browser, and device.",
+      "intro": "This Guide to Adopting Humans adoption process guide explains the full journey, including choosing candidates, completing evaluations, meeting adopted humans, and progressing through long-term events.",
       "steps": [
         {
-          "title": "Check Your Connection",
-          "description": "If a page fails to load, refresh first and test again on a stable network connection."
+          "title": "Submit Adoption Application",
+          "description": "Begin the process by selecting adoption preferences and providing required information."
         },
         {
-          "title": "Clear Browser Cache",
-          "description": "Old cached files can cause layout issues. Clearing the cache and reloading usually resolves display problems."
+          "title": "Human Compatibility Evaluation",
+          "description": "Review personality traits, preferences, and compatibility factors before making a decision."
         },
         {
-          "title": "Try a Different Browser",
-          "description": "If the layout looks broken, switch to an up-to-date browser such as Chrome, Firefox, or Edge."
+          "title": "Complete Matching Phase",
+          "description": "Choose the most suitable human match based on lifestyle and relationship goals."
         },
         {
-          "title": "Switch Device or Screen Size",
-          "description": "If menus feel cramped, try a larger screen or use the mobile menu toggle for easier access."
+          "title": "First Meeting Event",
+          "description": "Experience the first interaction and establish the foundation of the relationship."
         },
         {
-          "title": "Report the Issue",
-          "description": "If a guide still does not load correctly, share the page link and device details through the official community channels."
+          "title": "Develop Long-Term Bond",
+          "description": "Continue relationship progression through shared activities, events, and personalized care."
+        }
+      ]
+    },
+    "personalityGuide": {
+      "title": "Guide to Adopting Humans Personality Guide",
+      "eyebrow": "Human Behavior",
+      "displayType": "table",
+      "intro": "Each adopted human in the Guide to Adopting Humans universe has unique personality patterns that affect conversations, daily routines, emotional reactions, and relationship progression. Understanding these traits helps adopters provide better support and unlock deeper interactions.",
+      "headers": {
+        "personality": "Personality",
+        "traits": "Traits",
+        "preferences": "Preferences",
+        "tips": "Interaction Tips",
+        "difficulty": "Difficulty"
+      },
+      "rows": [
+        {
+          "personality": "Curious",
+          "traits": "Explores new ideas, asks questions, enjoys discovering new experiences",
+          "preferences": "Learning activities, exploration, creative interactions",
+          "tips": "Provide new experiences and encourage discovery",
+          "difficulty": "Easy"
+        },
+        {
+          "personality": "Independent",
+          "traits": "Values personal space, makes decisions confidently, prefers freedom",
+          "preferences": "Flexible schedules, private areas, self-directed activities",
+          "tips": "Avoid excessive control and respect personal choices",
+          "difficulty": "Medium"
+        },
+        {
+          "personality": "Social",
+          "traits": "Enjoys conversations, group activities, and emotional connections",
+          "preferences": "Frequent interaction, shared activities, community events",
+          "tips": "Maintain regular communication and positive feedback",
+          "difficulty": "Easy"
+        },
+        {
+          "personality": "Sensitive",
+          "traits": "Strong emotional responses and high awareness of surroundings",
+          "preferences": "Comfortable environments, reassurance, supportive conversations",
+          "tips": "Use gentle communication and maintain emotional stability",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    "housingGuide": {
+      "title": "Guide to Adopting Humans Housing Guide",
+      "eyebrow": "Living Spaces",
+      "displayType": "featureCards",
+      "intro": "Housing design in the Guide to Adopting Humans universe affects daily routines, comfort levels, and relationship growth. Adopters can improve spaces by organizing rooms, adding useful features, and creating environments suited to different human needs.",
+      "cards": [
+        {
+          "title": "Basic Living Area",
+          "description": "The starting environment for newly adopted humans with essential furniture and daily necessities.",
+          "features": [
+            "Sleeping space",
+            "Storage area",
+            "Basic interaction zone"
+          ],
+          "upgradeFocus": "Increase comfort and daily satisfaction"
+        },
+        {
+          "title": "Personal Room",
+          "description": "A customized private area designed around individual human preferences.",
+          "features": [
+            "Personal decorations",
+            "Preferred items",
+            "Private activities"
+          ],
+          "upgradeFocus": "Improve emotional connection"
+        },
+        {
+          "title": "Shared Activity Space",
+          "description": "A common area for conversations, games, and relationship-building activities.",
+          "features": [
+            "Social interactions",
+            "Group activities",
+            "Entertainment options"
+          ],
+          "upgradeFocus": "Increase relationship progression"
+        },
+        {
+          "title": "Advanced Habitat",
+          "description": "An upgraded environment supporting advanced care systems and customization.",
+          "features": [
+            "Expanded customization",
+            "Special facilities",
+            "Enhanced comfort"
+          ],
+          "upgradeFocus": "Optimize long-term adoption results"
+        }
+      ]
+    },
+    "eventsAndUpdates": {
+      "title": "Guide to Adopting Humans Events and Updates",
+      "eyebrow": "Latest Content",
+      "displayType": "accordion",
+      "intro": "Events in the Guide to Adopting Humans universe introduce temporary activities, new interaction opportunities, and additional progression content. Updates improve existing systems and add new ways for adopters to engage with humans.",
+      "items": [
+        {
+          "title": "Seasonal Events",
+          "description": "Limited-time activities that introduce special interactions, themed environments, and unique rewards.",
+          "content": [
+            "Special activities",
+            "Temporary customization options",
+            "Event progression"
+          ]
+        },
+        {
+          "title": "System Updates",
+          "description": "Gameplay improvements that adjust adoption systems, interaction features, and quality-of-life mechanics.",
+          "content": [
+            "Feature improvements",
+            "Balance changes",
+            "New mechanics"
+          ]
+        },
+        {
+          "title": "Community Events",
+          "description": "Large-scale activities encouraging adopters to participate and share experiences.",
+          "content": [
+            "Collaborative goals",
+            "Community challenges",
+            "Special announcements"
+          ]
+        }
+      ]
+    },
+    "tipsAndTricks": {
+      "title": "Guide to Adopting Humans Tips and Tricks",
+      "eyebrow": "Advanced Strategies",
+      "displayType": "tipCards",
+      "intro": "Experienced adopters in the Guide to Adopting Humans universe can improve outcomes by optimizing routines, understanding human preferences, and avoiding common management mistakes. These strategies help maintain higher satisfaction and faster progression.",
+      "cards": [
+        {
+          "title": "Build Trust Early",
+          "description": "Focus on consistent communication and positive interactions during the early adoption stages.",
+          "tips": [
+            "Maintain regular conversations",
+            "Learn individual preferences",
+            "Avoid sudden changes"
+          ]
+        },
+        {
+          "title": "Optimize Daily Routines",
+          "description": "Create balanced schedules that include care, activities, and personal time.",
+          "tips": [
+            "Plan activities efficiently",
+            "Balance needs and rewards",
+            "Track relationship progress"
+          ]
+        },
+        {
+          "title": "Customize Environments",
+          "description": "Use housing improvements and personal items to create better living conditions.",
+          "tips": [
+            "Match spaces with personalities",
+            "Upgrade important areas first",
+            "Prioritize comfort"
+          ]
+        },
+        {
+          "title": "Avoid Common Mistakes",
+          "description": "Prevent relationship problems caused by poor communication or unsuitable care choices.",
+          "tips": [
+            "Do not ignore preferences",
+            "Avoid repetitive interactions",
+            "Respond to emotional changes"
+          ]
         }
       ]
     }
@@ -772,15 +418,15 @@
         "answer": "All content is available right here on the wiki, free to read in your browser with no payment or account required."
       },
       {
-        "question": "Does the wiki cost anything?",
+        "question": "Does the Guide to Adopting Humans wiki cost anything?",
         "answer": "No. The Guide to Adopting Humans wiki is completely free to read."
       },
       {
-        "question": "Does the wiki support mobile and dark mode?",
+        "question": "Does the Guide to Adopting Humans wiki support mobile and dark mode?",
         "answer": "Yes. The site is fully responsive and includes a dark theme toggle for comfortable reading on phones, tablets, and desktops."
       },
       {
-        "question": "Will the wiki keep getting updates?",
+        "question": "Will the Guide to Adopting Humans wiki keep getting updates?",
         "answer": "Yes. New guides, human types, and lore entries are added regularly as the universe expands."
       }
     ]
