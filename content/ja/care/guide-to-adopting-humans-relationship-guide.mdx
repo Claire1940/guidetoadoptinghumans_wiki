@@ -1,0 +1,127 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "人間を養子にするガイド Wiki: 完全な養子縁組ガイド",
+  description: "私たちの包括的なガイドで成功する養子縁組の重要な手順と考慮事項を発見してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Adoption+Guide",
+  date: "2026-07-21",
+  author: "人間を養子にするガイド Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **養子縁組の理解**: 縁組の様々な種類とそのプロセスを探求してください。
+- **感情的な準備**: 養子縁組に対する感情的な準備を評価してください。
+- **財務計画**: 養子縁組に関わるコストを理解し、予算を計画してください。
+- **スケジュールの期待**: 縁組プロセスのための現実的なタイムラインを設定してください。
+- **法的考慮**: 縁組の法的側面について学習してください。
+</Callout>
+
+<Section icon={Map} title="養子縁組の導入">
+
+養子縁組は、家族に新たなメンバーを迎える素晴らしい旅です。縁組の種類とプロセスを理解することは、成功するために非常に重要です。
+
+</Section>
+
+<Section icon={Shield} title="縁組の種類">
+
+<Callout type="tip" title="縁組の種類">
+- **新生児縁組**: 新生児を養子にすること。
+- **国際縁組**: 他の国から子どもを養子にすること。
+- **親族縁組**: 親族を養子にすること。
+- **養子縁組**: 養子が養子にすること。
+- **里親縁組**: 児童養護施設からの子どもを養子にすること。
+</Callout>
+
+各種の縁組にはそれぞれの手順と考慮事項があります。家族の状況と準備に最も適した種類を選ぶことが重要です。
+
+</Section>
+
+<Section icon={Target} title="縁組の手順別ガイド">
+
+<Steps>
+  <Step num="1" title="研究と教育">
+    縁組、その種類、およびプロセスについて学びます。
+  </Step>
+  <Step num="2" title="養子縁組機関または弁護士を選択">
+    プロセスを案内する信頼できる機関または弁護士を選択してください。
+  </Step>
+  <Step num="3" title="ホームスタディの完了">
+    ホームスタディは、養子縁組の準備と適合性を評価します。
+  </Step>
+  <Step num="4" title="マッチを待つ">
+    縁組の種類と好みによって、時間がかかることがあります。
+  </Step>
+  <Step num="5" title="縁組の最終化">
+    子どもを養子にするための法的プロセスを完了します。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="初めての養子縁組親のための考慮事項">
+
+<Callout type="warning" title="感情的な準備">
+養子縁組は感情的な旅です。高みと低みに備えてください。
+</Callout>
+
+<Callout type="info" title="財務計画">
+養子縁組に関わるコストを理解し、予算を計画してください。
+</Callout>
+
+<Callout type="tip" title="スケジュールの期待">
+根気強く、縁組プロセスは数ヶ月から数年までかかることがあります。
+</Callout>
+
+<Callout type="info" title="法的考慮">
+弁護士と相談して、すべての法的側面が適切に処理されることを確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="縁組に関する一般的な誤解">
+
+<Callout type="tip" title="誤解1: 豊かな人でなければならない">
+養子縁組は豊かさを必要としません。より多くの資源と準備が重要です。
+</Callout>
+
+<Callout type="info" title="誤解2: 縁組は永遠に続く">
+長いプロセスのように感じることがありますが、一部の家族は1年以内に成功します。
+</Callout>
+
+<Callout type="warning" title="誤解3: ただ新生児を養子にすることができる">
+養子縁組は新生児に限りません。年配の子供たちも愛する家庭が必要です。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="結論">
+
+養子縁組の旅に出ることは大きな一歩です。プロセスを理解し、感情的および財務的に準備し、すべての選択肢を考慮することで、子どもを家族に迎えることができます。
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "養子縁組のための法的要件は何ですか？",
+    answer: "法的要件は国と縁組の種類によって異なります。一般的には、ホームスタディ、背後調査、裁判所の承認が必要です。"
+  },
+  {
+    question: "養子縁組のプロセスはどれくらい時間がかかりますか？",
+    answer: "タイムラインは縁組の種類と子供の有無によって、数ヶ月から数年まで範囲が広がります。"
+  },
+  {
+    question: "シングルパarentが養子縁組することができますか？",
+    answer: "はい、シングルパarentも養子縁組することができます。要件とプロセスは異なる場合がありますので、養子縁組専門家と相談することが重要です。"
+  }
+]} />
+
+</Section>

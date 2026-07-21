@@ -1,0 +1,146 @@
+## 🚨 强制要求（必须严格遵守 - 最高优先级）
+
+### 组件使用强制要求
+每篇文章必须至少使用以下所有组件各一次：
+- ✅ **Section** - 每个主要章节（必用，通常 4-6 个）
+- ✅ **Callout** - 至少 2-3 个（使用不同 type: tip/warning/info/success）
+  - **重要**：每个 Section 内部都必须至少使用一次 Callout 组件
+- ✅ **CardGrid/Card** - 至少 1 组（3-4 个卡片，展示并列对比）
+- ✅ **Steps** - 至少 1 个步骤流程（3-5 个步骤）
+- ✅ **Checklist** - 至少 1 个清单（3-5 个项目）
+- ✅ **FAQ** - 至少 1 个（3-4 组问答）
+- ✅ **表格** - 至少 2-5 个
+
+### 视频使用强制规则
+- ⚠️ **同一个视频只能使用一次**，禁止在文章中多次嵌入相同的视频
+- 只嵌入与主关键词高度相关的视频（1-2个最相关的）
+- 如果所有视频都不相关，不嵌入任何视频
+
+### Callout 组件使用规则
+- **每个 Section 内部都必须至少使用一次 Callout 组件**
+- 使用不同的 type 类型：tip、warning、info、success
+- 用于突出重要提示、警告信息、专业建议
+
+---
+
+## 📝 文章内容撰写
+
+### 文件头部
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide to Adopting Humans: A Comprehensive Guide",
+  description: "Discover the ultimate guide to adopting humans in the game. Learn strategies, tips, and essential information to succeed.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guide+to+Adopting+Humans",
+  date: "2026-07-21",
+  author: "guide to adopting humans Wiki Team"
+}
+```
+
+### TL;DR 部分
+
+```jsx
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Guide to Adopting Humans
+- **Key mechanic**: Understanding the adoption process and managing your adopted humans
+- **Best strategy**: Prioritize the needs of your adopted humans to ensure their happiness and loyalty
+- **Critical tip**: Regularly interact with your adopted humans to build a strong bond
+- **Top choice**: Adopt humans with diverse skills and abilities to enhance your gameplay
+</Callout>
+```
+
+### 第一个章节标题
+
+```jsx
+<Section icon={Map} title="Understanding the Adoption Process">
+This section will guide you through the adoption process in the game. Learn how to find, adopt, and manage your adopted humans effectively.
+<Callout type="tip" title="Pro Tip">
+Make sure to check the compatibility of your adopted humans with your current team composition to maximize their potential.
+</Callout>
+</Section>
+```
+
+### Step-by-Step Guide
+
+```jsx
+<Section icon={Target} title="Step-by-Step Guide to Adopting Humans">
+<Steps>
+  <Step num="1" title="Find Adoptable Humans">
+    Explore the game world to find adoptable humans. They can be found in various locations, such as orphanages or abandoned areas.
+  </Step>
+  <Step num="2" title="Adopt a Human">
+    Once you find an adoptable human, approach them and select the option to adopt. This will add them to your team.
+  </Step>
+  <Step num="3" title="Manage Your Adopted Humans">
+    Assign roles and tasks to your adopted humans based on their skills and abilities. Regularly check their happiness and loyalty levels to ensure their well-being.
+  </Step>
+</Steps>
+</Section>
+```
+
+### Goals and Checklist
+
+```jsx
+<Section icon={Trophy} title="Goals and Checklist">
+<Checklist
+  id="adoption-goals"
+  title="Essential Goals:"
+  items={[
+    "Find and adopt at least 5 humans",
+    "Maximize the happiness and loyalty of your adopted humans",
+    "Build a diverse team of humans with different skills and abilities",
+    "Complete quests and missions involving your adopted humans"
+  ]}
+/>
+</Section>
+```
+
+### FAQ
+
+```jsx
+<Section icon={Swords} title="FAQ">
+<FAQ items={[
+  {
+    question: "How do I increase the happiness of my adopted humans?",
+    answer: "Regularly interact with your adopted humans, complete quests for them, and provide them with resources and support."
+  },
+  {
+    question: "Can I change the roles of my adopted humans?",
+    answer: "Yes, you can change the roles of your adopted humans based on their skills and the needs of your team."
+  },
+  {
+    question: "What are the benefits of adopting humans?",
+    answer: "Adopting humans can provide you with additional support in battles, help you complete quests, and contribute to your overall gameplay experience."
+  }
+]} />
+</Section>
+```
+
+---
+
+重要提醒：
+1. ✅ 必须包含 import 语句和 export const metadata
+2. ✅ 不用代码块包裹文章
+3. ✅ 文章直接以 import 开头
+4. ✅ 使用美式英语
+5. ✅ 至少1-2个表格（使用标准 Markdown 表格，**但严格禁止多余空格、超长表格分隔线**）
+6. ✅ 每个章节用 Section 组件包裹
+7. ✅ 正确导入需要的 Lucide 图标
+8. ✅ 内容来自merged_data
+9. ✅ 以主编视角写作
+10. ✅ author 字段使用 "guide to adopting humans Wiki Team" 格式
+11. ✅ 表格单元格内容简洁（不超过 300 字符）
+12. ❌ 不编造数据
+13. ❌ 不用绝对化表达
+14. ❌ 不在表格中使用空格填充或过度对齐
+15. ❌ 不频繁提及来源

@@ -1,0 +1,89 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "人間を養子にするガイド: 新しいペットの世話のガイド",
+  description: "人間をペットとして飼うための包括的なガイドです。必要な世話のヒントと、歓迎する環境を作るためのステップバイステップのガイドを含んでいます。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Adopting+Humans+Guide",
+  date: "2026-07-21",
+  author: "人間を養子にするガイド Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: 人間を養子にするガイド
+- **重要なポイント**:
+  - 正しいトイレ箱の選択
+  - 抜け爪用の柱と安全な隠れ場所の提供
+  - 猫のコミュニケーションの理解
+  - 世話と医療のヒント
+  - 挑発的な環境の作成
+</Callout>
+
+<Section icon={Map} title="新しいペットを理解する">
+
+<Callout type="tip" title="猫の行動の理解">
+猫はユニークな行動を持っています。例えば、領地を示すために爪で引っかける、または人間との交流のために鳴くなどです。これらの行動を理解することは、ペットとの強固な絆を築くために非常に重要です。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="猫フレンドリーな家の作成">
+
+<Callout type="warning" title="トイレ箱の選択">
+適切なトイレ箱を選ぶことは非常に重要です。十分に大きく、アクセスしやすく、プライバシーを提供してトイレ箱ストレスを防ぐようにしてください。
+</Callout>
+
+<Callout type="tip" title="抜け爪用の柱">
+抜け爪用の柱は家具を守るだけでなく、運動の場と、猫が爪を磨く場所を提供します。猫の好みに合わせた柱を選んでください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="世話と医療">
+
+<Callout type="info" title="定期的な世話">
+定期的な世話は猫の健康と外観にとって重要です。猫は自分自身を多くの時間で掃除していますが、届きにくい場所を手伝うことで感謝します。
+</Callout>
+
+<Callout type="success" title="医療">
+定期的な獣医の診察と予防接種は、病気を予防し、猫の全体的な健康を確保するために非常に重要です。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="挑発的な環境の作成">
+
+<Callout type="tip" title="インタラクティブなおもちゃ">
+振動したり、鳴ったり、予測不可能に動くインタラクティブなおもちゃは、猫にとって数時間もの娯楽と運動を提供できます。
+</Callout>
+
+<Callout type="info" title="猫の木と窓のベンチ">
+猫の木と窓のベンチは、猫が上から自分の領域を観察する安全な視点を提供します。また、登ったり、引っかける場所を提供します。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "猫用の適切なトイレ箱を選ぶ方法は何ですか？",
+    answer: "猫が快適に動けるように十分に大きいトイレ箱を選んでください。アクセスしやすく、十分なプライバシーを提供するようにしてください。"
+  },
+  {
+    question: "猫がトイレ箱に対してストレスを感じたらどうすればいいですか？",
+    answer: "トイレ箱を静かでプライベートな場所に置いてください。ストレスが続く場合は、獣医に相談してください。"
+  },
+  {
+    question: "猫をどのくらい頻繁に整髪しますか？",
+    answer: "猫は自分自身を多くの時間で掃除していますが、定期的なブラッシングは毛球を予防し、毛皮を健康に保つのに役立ちます。"
+  }
+]} />
+
+</Section>

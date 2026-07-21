@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "process": "Process",
+    "humans": "Humans",
+    "care": "Care",
+    "housing": "Housing",
+    "manhwa": "Manhwa",
+    "updates": "Updates"
+  }
+}

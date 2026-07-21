@@ -1,0 +1,89 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout, YouTubeEmbed } from '@/components/mdx';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+
+export const metadata = {
+  title: "인간 입양 가이드: 새로운 반려동물 주인을 위한 관리 가이드",
+  description: "인간을 반려동물로 입양하는 데 필요한 모든 정보를 포함한 종합 가이드, 필수 관리 팁 및 환영하는 환경을 만들기 위한 단계별 가이드.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=Adopting+Humans+Guide",
+  date: "2026-07-21",
+  author: "인간 입양 가이드 Wiki 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 인간 입양 가이드
+- **주요 요약**:
+  - 적절한 레터박스 선택
+  - 긁힘대와 안전한 숨는 곳 제공
+  - 고양이의 소통 이해
+  - 관리와 건강 관리 팁
+  - 자극적인 환경 만들기
+</Callout>
+
+<Section icon={Map} title="신한 반려동물 이해하기">
+
+<Callout type="tip" title="고양이의 행동 이해">
+고양이는 털을 긁어 토지를 표시하고 인간과의 상호작용을 위해 울음을 질러 독특한 행동을 가집니다. 이러한 행동을 이해하는 것은 반려동물과 강한 연결을 형성하는 데 필수적입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="고양이 친화적인 집 만들기">
+
+<Callout type="warning" title="레터박스 선택">
+적절한 레터박스 선택은 필수적입니다. 고양이가 편안하게 움직일 수 있도록 크기가 충분하고 쉽게 접근할 수 있으며, 사생활을 제공하여 레터박스 스트레스를 방지하십시오.
+</Callout>
+
+<Callout type="tip" title="긁힘대">
+긁힘대는 가구를 보호하는 것뿐만 아니라 운동을 제공하고 고양이가 발톱을 갈아질 수 있는 장소를 제공합니다. 고양이의 선호도에 맞는 긁힘대를 선택하십시오.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="관리와 건강 관리">
+
+<Callout type="info" title="정기적인 관리">
+정기적인 관리는 고양이의 건강과 외관에 중요합니다. 고양이는 많은 시간을 자신을 씻지만, 어려운 곳을 씻는 데 도움을 주는 것을 감사합니다.
+</Callout>
+
+<Callout type="success" title="건강 관리">
+정기적인 동물의료 검진과 예방 접종은 질병을 예방하고 고양이의 전반적인 건강을 보장하는 데 필수적입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="자극적인 환경 만들기">
+
+<Callout type="tip" title="인터랙티브 토픽">
+똑똑하게 떨리거나 소리를 내거나 예측할 수 없이 움직이는 인터랙티브 토픽은 고양이에게 시간이 많이 걸리는 엔터테인먼트와 운동을 제공할 수 있습니다.
+</Callout>
+
+<Callout type="info" title="고양이 나무와 창문 기둥">
+고양이 나무와 창문 기둥은 고양이가 자신의 왕국을 위에서 관찰할 수 있는 안전한 전망을 제공합니다. 또한 오르고 긁을 수 있는 장소를 제공합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "고양이에게 적절한 레터박스를 어떻게 선택하나요?",
+    answer: "고양이가 편안하게 움직일 수 있도록 크기가 충분한 레터박스를 선택하십시오. 쉽게 접근할 수 있으며, 충분한 사생활을 제공해야 합니다."
+  },
+  {
+    question: "고양이가 레터박스에 스트레스를 받을 때 어떻게 해야 하나요?",
+    answer: "레터박스가 조용하고 사생활이 있는 위치에 있도록 하십시오. 스트레스가 지속되면 동물의료 전문가에게 상담하십시오."
+  },
+  {
+    question: "고양이를 얼마나 자주 관리해야 하나요?",
+    answer: "고양이는 많은 시간을 자신을 씻지만, 정기적인 털질은 머리카락이 맺혀서 문제가 발생하지 않도록 도와주고 고양이의 털을 건강하게 유지하는 데 도움이 됩니다."
+  }
+]} />
+
+</Section>

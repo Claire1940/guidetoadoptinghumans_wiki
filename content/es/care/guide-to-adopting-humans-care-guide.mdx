@@ -1,0 +1,89 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para Adoptar Humanos: Guía de Cuidado para Dueños de Mascotas Novatos",
+  description: "Una guía completa para adoptar humanos como mascotas, incluyendo consejos esenciales de cuidado y una guía paso a paso para crear un entorno acogedor.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Adopting+Humans+Guide",
+  date: "2026-07-21",
+  author: "Equipo de Wiki de Guía para Adoptar Humanos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Guía para Adoptar Humanos
+- **Puntos clave**:
+  - Elegir la caja de arena adecuada
+  - Proporcionar postes para rascar y lugares seguros para esconderse
+  - Entender la comunicación del gato
+  - Consejos de aseo y salud
+  - Crear un entorno estimulante
+</Callout>
+
+<Section icon={Map} title="Entendiendo a tu Nuevo Mascota">
+
+<Callout type="tip" title="Comportamientos de los Gatos">
+Los gatos tienen comportamientos únicos, como rascar para marcar territorio y maullar por interacción humana. Entender estos comportamientos es crucial para construir un fuerte vínculo con tu mascota.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Creando un Hogar Adecuado para Gatos">
+
+<Callout type="warning" title="Selección de la Caja de Arena">
+La selección de la caja de arena adecuada es esencial. Asegúrate de que sea lo suficientemente grande, fácilmente accesible y proporcione privacidad para evitar el estrés de la caja de arena.
+</Callout>
+
+<Callout type="tip" title="Postes para Rascar">
+Los postes para rascar no solo ahorran tu mueble sino que también proporcionan ejercicio y un lugar para que los gatos afilen sus garras. Elige un poste que se ajuste a la preferencia de tu gato.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Aseo y Salud">
+
+<Callout type="info" title="Aseo Regular">
+El aseo regular es importante para la salud y el aspecto de un gato. Los gatos pasan mucho tiempo limpiándose, pero aprecian la ayuda con lugares difíciles de alcanzar.
+</Callout>
+
+<Callout type="success" title="Atención Médica">
+Las revisiones veterinarias regulares y las vacunaciones son cruciales para prevenir enfermedades y asegurar el bienestar general de tu gato.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Creando un Entorno Estimulante">
+
+<Callout type="tip" title="Juguetes Interactivos">
+Los juguetes interactivos que chirran, silban o se mueven de manera inesperada pueden proporcionar horas de entretenimiento y ejercicio para tu gato.
+</Callout>
+
+<Callout type="info" title="Árboles para Gatos y Perchas de Ventana">
+Los árboles para gatos y las perchas de ventana proporcionan un punto de vista seguro para que tu gato observe su reino desde arriba. También ofrecen un lugar para trepar y rascar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo elijo la caja de arena adecuada para mi gato?",
+    answer: "Elige una caja de arena lo suficientemente grande para que tu gato se mueva cómodamente. Debe ser fácilmente accesible y proporcionar suficiente privacidad."
+  },
+  {
+    question: "¿Qué debo hacer si mi gato está estresado con la caja de arena?",
+    answer: "Asegúrate de que la caja de arena esté en un lugar tranquilo y privado. Si el estrés persiste, consulta a un veterinario por consejo."
+  },
+  {
+    question: "¿Con qué frecuencia debo aseo a mi gato?",
+    answer: "Los gatos pasan mucho tiempo limpiándose, pero el cepillado regular puede ayudar a prevenir los bolas de pelo y mantener su pelaje saludable."
+  }
+]} />
+
+</Section>

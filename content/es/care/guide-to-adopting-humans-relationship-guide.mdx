@@ -1,0 +1,127 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para Adoptar Humanos: Guía Completa de Adopción",
+  description: "Descubre los pasos esenciales y consideraciones para un viaje de adopción exitoso con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Adoption+Guide",
+  date: "2026-07-21",
+  author: "Equipo de Wiki para Adoptar Humanos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Entendiendo la Adopción**: Explora los diferentes tipos de adopción y sus procesos.
+- **Preparación Emocional**: Evalúa tu preparación emocional para la adopción.
+- **Planificación Financiera**: Planifica tu presupuesto y entienda los costos involucrados.
+- **Expectativas de Tiempo**: Establece plazos realistas para el proceso de adopción.
+- **Consideraciones Legales**: Aprende sobre los aspectos legales de la adopción.
+</Callout>
+
+<Section icon={Map} title="Introducción a la Adopción">
+
+La adopción es un viaje hermoso que trae a un nuevo miembro a tu familia. Entender los tipos de adopción y el proceso es crucial para una adopción exitosa.
+
+</Section>
+
+<Section icon={Shield} title="Tipos de Adopción">
+
+<Callout type="tip" title="Tipos de Adopción">
+- **Adopción de Bebés Recién Nacidos**: Adoptar a un bebé recién nacido.
+- **Adopción Internacional**: Adoptar a un niño de otro país.
+- **Adopción de Parentesco**: Adoptar a un familiar.
+- **Adopción de Padre/Madre Sustituto**: Un padre/madre sustituto adoptando a su hijo/a sustituto.
+- **Adopción de Cuidado Foster**: Adoptar a un niño de cuidado foster.
+</Callout>
+
+Cada tipo de adopción tiene su propia serie de pasos y consideraciones. Es importante elegir el tipo que mejor se ajuste a la situación y la preparación de tu familia.
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso de la Adopción">
+
+<Steps>
+  <Step num="1" title="Investigación y Educación">
+    Aprende sobre la adopción, sus tipos y el proceso.
+  </Step>
+  <Step num="2" title="Elije una Agencia de Adopción o Abogado">
+    Selecciona una agencia o abogado de confianza para guiarte a través del proceso.
+  </Step>
+  <Step num="3" title="Completa el Estudio de Hogar">
+    El estudio de hogar evalúa tu preparación y idoneidad para la adopción.
+  </Step>
+  <Step num="4" title="Espera una Coincidencia">
+    Esto puede tomar tiempo, dependiendo del tipo de adopción y tus preferencias.
+  </Step>
+  <Step num="5" title="Finaliza la Adopción">
+    Completa el proceso legal para adoptar a tu hijo.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Consideraciones para los Padres Adoptivos por Primera Vez">
+
+<Callout type="warning" title="Preparación Emocional">
+La adopción puede ser un viaje emocional. Estás preparado para los altibajos.
+</Callout>
+
+<Callout type="info" title="Planificación Financiera">
+Entiende los costos involucrados en la adopción y planifica tu presupuesto en consecuencia.
+</Callout>
+
+<Callout type="tip" title="Expectativas de Tiempo">
+Ten paciencia. El proceso de adopción puede tomar desde unos pocos meses hasta varios años.
+</Callout>
+
+<Callout type="info" title="Consideraciones Legales">
+Consulte a un abogado para asegurarse de que todos los aspectos legales se manejen adecuadamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mitos Comunes sobre la Adopción">
+
+<Callout type="tip" title="Mito 1: Tienes que Ser Rico">
+La adopción no requiere riqueza. Se trata más de ser recursos y preparado.
+</Callout>
+
+<Callout type="info" title="Mito 2: La Adopción Lleva para Siempre">
+Aunque puede sentirse como un proceso largo, algunas familias adoptan con éxito en un año.
+</Callout>
+
+<Callout type="warning" title="Mito 3: Solo Puedes Adoptar Bebés">
+La adopción no se limita a los recién nacidos. Los niños mayores también necesitan hogares amorosos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusión">
+
+Empezar el viaje de adopción es un paso significativo. Al entender el proceso, estando preparado emocional y financieramente, y considerando todas las opciones, puedes tener éxito al traer a un niño a tu familia.
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos legales para la adopción?",
+    answer: "Los requisitos legales varían según el país y el tipo de adopción. Generalmente, necesitarás un estudio de hogar, verificaciones de antecedentes y aprobación del tribunal."
+  },
+  {
+    question: "¿Cuánto tiempo dura el proceso de adopción?",
+    answer: "El cronograma puede variar desde unos pocos meses hasta varios años, dependiendo del tipo de adopción y la disponibilidad de niños."
+  },
+  {
+    question: "¿Pueden adoptar padres solteros?",
+    answer: "Sí, los padres solteros pueden adoptar. Los requisitos y el proceso pueden variar, por lo que es importante consultar con un profesional de la adopción."
+  }
+]} />
+
+</Section>

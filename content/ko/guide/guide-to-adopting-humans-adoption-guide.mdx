@@ -1,0 +1,94 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "인간 입양 가이드: 최종 초보자 가이드",
+  description: "인간 입양 가이드의 최종 가이드를 발견하세요. 팁, 전략, 여행을 시작하기 위해 필요한 모든 것을 포함하고 있습니다!",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=Adopting+Humans+Guide",
+  date: "2026-07-21",
+  author: "인간 입양 가이드 Wiki 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 인간 입양
+- **주요 기계**: 입양 과정 이해
+- **최고 전략**: 입양 성공률 극대화
+- **핵심 팁**: 기본부터 점진적으로 진행
+- **최고 선택**: 드문 독특한 반려동물을 주목하세요
+</Callout>
+
+<Section icon={Map} title="입양 과정 이해">
+
+**비디오 하이라이트:**
+- 인간 입양의 기본
+- 입양 과정 시작 방법
+- 성공적인 입양 팁
+
+<YouTubeEmbed videoId="vpYwriY4eek" title="🪄*최종* Adopt Me BEGINNER’S GUIDE (Get Rich)💰Its Cxco Twins" />
+
+<Callout type="tip" title="프로 팁">
+매일 테스크를 완료하여 보상을 해금하고 반려동물 입양 기회를 높이세요.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="단계별 입양 가이드">
+
+<Steps>
+  <Step num="1" title="계정 생성">
+    Adopting Humans에 가입하고 캐릭터를 생성하세요.
+  </Step>
+  <Step num="2" title="양아당실 탐험">
+  양아당실을 방문하여 입양 가능한 반려동물을 확인하고 선택하세요.
+  </Step>
+  <Step num="3" title="과제 완료">
+  과제 보드에서 과제를 완료하여 돈과 보상을 벌세요.
+  </Step>
+  <Step num="4" title="반려동물 입양">
+  충분한 돈이 있으면 양아당실로 돌아가 선택한 반려동물을 입양하세요.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="입양 팁과 트릭">
+
+<Callout type="warning" title="중요">
+반려동물 거래를 할 때 항상 조심스럽게 하세요. 모르는 플레이어와의 거래를 신뢰하지 마세요.
+</Callout>
+
+<Callout type="info" title="최고의 부화 알">
+crack 알은 가장 저렴하고, 전설적인 반려동물을 부화시키는 1.5%의 기회를 제공합니다.
+</Callout>
+
+<Callout type="success" title="보상 극대화">
+모든 매일 테스크를 완료하여 180일 후 금색 알을 해금하고 360일 후 보석 알을 해금하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Adopting Humans에서 더 많은 돈을 얻는 방법은 무엇인가요?",
+    answer: "매일 테스크를 완료하고 일을 찾아 입양하여 돈을 벌세요."
+  },
+  {
+    question: "Adopting Humans에서 어떤 반려동물을 입양할 수 있나요?",
+    answer: "양아당실에서 사용 가능한 모든 반려동물을 입양할 수 있습니다."
+  },
+  {
+    question: "Adopting Humans에서 다양한 종류의 알은 무엇인가요?",
+    answer: "crack 알, 도시 알, 반려동물 알, 왕가 알이 있으며, 각각 전설적인 반려동물을 부화시키는 다른 기회를 제공합니다."
+  }
+]} />
+
+</Section>

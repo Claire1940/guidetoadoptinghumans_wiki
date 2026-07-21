@@ -1,1 +1,586 @@
-{}
+{
+  "en": {
+    "care": [
+      {
+        "slug": "guide-to-adopting-humans-care-guide",
+        "file": "guide-to-adopting-humans-care-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-communication-tips",
+        "file": "guide-to-adopting-humans-communication-tips"
+      },
+      {
+        "slug": "guide-to-adopting-humans-daily-care",
+        "file": "guide-to-adopting-humans-daily-care"
+      },
+      {
+        "slug": "guide-to-adopting-humans-emotional-support",
+        "file": "guide-to-adopting-humans-emotional-support"
+      },
+      {
+        "slug": "guide-to-adopting-humans-relationship-guide",
+        "file": "guide-to-adopting-humans-relationship-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-training-guide",
+        "file": "guide-to-adopting-humans-training-guide"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-guide",
+        "file": "guide-to-adopting-humans-adoption-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-advanced-guide",
+        "file": "guide-to-adopting-humans-advanced-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-guide",
+        "file": "guide-to-adopting-humans-beginner-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-complete-guide",
+        "file": "guide-to-adopting-humans-complete-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-first-steps",
+        "file": "guide-to-adopting-humans-first-steps"
+      },
+      {
+        "slug": "guide-to-adopting-humans-how-to-adopt",
+        "file": "guide-to-adopting-humans-how-to-adopt"
+      },
+      {
+        "slug": "guide-to-adopting-humans-things-to-know-before-adopting",
+        "file": "guide-to-adopting-humans-things-to-know-before-adopting"
+      },
+      {
+        "slug": "guide-to-adopting-humans-tips-and-tricks",
+        "file": "guide-to-adopting-humans-tips-and-tricks"
+      }
+    ],
+    "housing": [
+      {
+        "slug": "guide-to-adopting-humans-customization-guide",
+        "file": "guide-to-adopting-humans-customization-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-home-setup",
+        "file": "guide-to-adopting-humans-home-setup"
+      },
+      {
+        "slug": "guide-to-adopting-humans-housing-guide",
+        "file": "guide-to-adopting-humans-housing-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-living-space",
+        "file": "guide-to-adopting-humans-living-space"
+      },
+      {
+        "slug": "guide-to-adopting-humans-room-design",
+        "file": "guide-to-adopting-humans-room-design"
+      }
+    ],
+    "humans": [
+      {
+        "slug": "guide-to-adopting-humans-best-human",
+        "file": "guide-to-adopting-humans-best-human"
+      },
+      {
+        "slug": "guide-to-adopting-humans-compatibility",
+        "file": "guide-to-adopting-humans-compatibility"
+      },
+      {
+        "slug": "guide-to-adopting-humans-human-ranking",
+        "file": "guide-to-adopting-humans-human-ranking"
+      },
+      {
+        "slug": "guide-to-adopting-humans-personalities",
+        "file": "guide-to-adopting-humans-personalities"
+      },
+      {
+        "slug": "guide-to-adopting-humans-traits",
+        "file": "guide-to-adopting-humans-traits"
+      },
+      {
+        "slug": "guide-to-adopting-humans-types",
+        "file": "guide-to-adopting-humans-types"
+      }
+    ],
+    "manhwa": [
+      {
+        "slug": "guide-to-adopting-humans-manga",
+        "file": "guide-to-adopting-humans-manga"
+      },
+      {
+        "slug": "guide-to-adopting-humans-manhwa",
+        "file": "guide-to-adopting-humans-manhwa"
+      }
+    ],
+    "process": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-process",
+        "file": "guide-to-adopting-humans-adoption-process"
+      },
+      {
+        "slug": "guide-to-adopting-humans-application-guide",
+        "file": "guide-to-adopting-humans-application-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-checklist",
+        "file": "guide-to-adopting-humans-beginner-checklist"
+      },
+      {
+        "slug": "guide-to-adopting-humans-preparation-guide",
+        "file": "guide-to-adopting-humans-preparation-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-requirements",
+        "file": "guide-to-adopting-humans-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "guide-to-adopting-humans-events",
+        "file": "guide-to-adopting-humans-events"
+      },
+      {
+        "slug": "guide-to-adopting-humans-news",
+        "file": "guide-to-adopting-humans-news"
+      },
+      {
+        "slug": "guide-to-adopting-humans-updates",
+        "file": "guide-to-adopting-humans-updates"
+      }
+    ]
+  },
+  "es": {
+    "care": [
+      {
+        "slug": "guide-to-adopting-humans-care-guide",
+        "file": "guide-to-adopting-humans-care-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-communication-tips",
+        "file": "guide-to-adopting-humans-communication-tips"
+      },
+      {
+        "slug": "guide-to-adopting-humans-daily-care",
+        "file": "guide-to-adopting-humans-daily-care"
+      },
+      {
+        "slug": "guide-to-adopting-humans-emotional-support",
+        "file": "guide-to-adopting-humans-emotional-support"
+      },
+      {
+        "slug": "guide-to-adopting-humans-relationship-guide",
+        "file": "guide-to-adopting-humans-relationship-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-training-guide",
+        "file": "guide-to-adopting-humans-training-guide"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-guide",
+        "file": "guide-to-adopting-humans-adoption-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-advanced-guide",
+        "file": "guide-to-adopting-humans-advanced-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-guide",
+        "file": "guide-to-adopting-humans-beginner-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-complete-guide",
+        "file": "guide-to-adopting-humans-complete-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-first-steps",
+        "file": "guide-to-adopting-humans-first-steps"
+      },
+      {
+        "slug": "guide-to-adopting-humans-how-to-adopt",
+        "file": "guide-to-adopting-humans-how-to-adopt"
+      },
+      {
+        "slug": "guide-to-adopting-humans-things-to-know-before-adopting",
+        "file": "guide-to-adopting-humans-things-to-know-before-adopting"
+      },
+      {
+        "slug": "guide-to-adopting-humans-tips-and-tricks",
+        "file": "guide-to-adopting-humans-tips-and-tricks"
+      }
+    ],
+    "housing": [
+      {
+        "slug": "guide-to-adopting-humans-customization-guide",
+        "file": "guide-to-adopting-humans-customization-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-home-setup",
+        "file": "guide-to-adopting-humans-home-setup"
+      },
+      {
+        "slug": "guide-to-adopting-humans-living-space",
+        "file": "guide-to-adopting-humans-living-space"
+      },
+      {
+        "slug": "guide-to-adopting-humans-room-design",
+        "file": "guide-to-adopting-humans-room-design"
+      }
+    ],
+    "humans": [
+      {
+        "slug": "guide-to-adopting-humans-best-human",
+        "file": "guide-to-adopting-humans-best-human"
+      },
+      {
+        "slug": "guide-to-adopting-humans-compatibility",
+        "file": "guide-to-adopting-humans-compatibility"
+      },
+      {
+        "slug": "guide-to-adopting-humans-human-ranking",
+        "file": "guide-to-adopting-humans-human-ranking"
+      },
+      {
+        "slug": "guide-to-adopting-humans-personalities",
+        "file": "guide-to-adopting-humans-personalities"
+      },
+      {
+        "slug": "guide-to-adopting-humans-traits",
+        "file": "guide-to-adopting-humans-traits"
+      },
+      {
+        "slug": "guide-to-adopting-humans-types",
+        "file": "guide-to-adopting-humans-types"
+      }
+    ],
+    "manhwa": [
+      {
+        "slug": "guide-to-adopting-humans-manga",
+        "file": "guide-to-adopting-humans-manga"
+      }
+    ],
+    "process": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-process",
+        "file": "guide-to-adopting-humans-adoption-process"
+      },
+      {
+        "slug": "guide-to-adopting-humans-application-guide",
+        "file": "guide-to-adopting-humans-application-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-checklist",
+        "file": "guide-to-adopting-humans-beginner-checklist"
+      },
+      {
+        "slug": "guide-to-adopting-humans-preparation-guide",
+        "file": "guide-to-adopting-humans-preparation-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-requirements",
+        "file": "guide-to-adopting-humans-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "guide-to-adopting-humans-events",
+        "file": "guide-to-adopting-humans-events"
+      },
+      {
+        "slug": "guide-to-adopting-humans-updates",
+        "file": "guide-to-adopting-humans-updates"
+      }
+    ]
+  },
+  "ja": {
+    "care": [
+      {
+        "slug": "guide-to-adopting-humans-care-guide",
+        "file": "guide-to-adopting-humans-care-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-communication-tips",
+        "file": "guide-to-adopting-humans-communication-tips"
+      },
+      {
+        "slug": "guide-to-adopting-humans-daily-care",
+        "file": "guide-to-adopting-humans-daily-care"
+      },
+      {
+        "slug": "guide-to-adopting-humans-emotional-support",
+        "file": "guide-to-adopting-humans-emotional-support"
+      },
+      {
+        "slug": "guide-to-adopting-humans-relationship-guide",
+        "file": "guide-to-adopting-humans-relationship-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-training-guide",
+        "file": "guide-to-adopting-humans-training-guide"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-guide",
+        "file": "guide-to-adopting-humans-adoption-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-advanced-guide",
+        "file": "guide-to-adopting-humans-advanced-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-guide",
+        "file": "guide-to-adopting-humans-beginner-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-complete-guide",
+        "file": "guide-to-adopting-humans-complete-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-first-steps",
+        "file": "guide-to-adopting-humans-first-steps"
+      },
+      {
+        "slug": "guide-to-adopting-humans-how-to-adopt",
+        "file": "guide-to-adopting-humans-how-to-adopt"
+      },
+      {
+        "slug": "guide-to-adopting-humans-things-to-know-before-adopting",
+        "file": "guide-to-adopting-humans-things-to-know-before-adopting"
+      },
+      {
+        "slug": "guide-to-adopting-humans-tips-and-tricks",
+        "file": "guide-to-adopting-humans-tips-and-tricks"
+      }
+    ],
+    "housing": [
+      {
+        "slug": "guide-to-adopting-humans-customization-guide",
+        "file": "guide-to-adopting-humans-customization-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-home-setup",
+        "file": "guide-to-adopting-humans-home-setup"
+      },
+      {
+        "slug": "guide-to-adopting-humans-living-space",
+        "file": "guide-to-adopting-humans-living-space"
+      },
+      {
+        "slug": "guide-to-adopting-humans-room-design",
+        "file": "guide-to-adopting-humans-room-design"
+      }
+    ],
+    "humans": [
+      {
+        "slug": "guide-to-adopting-humans-best-human",
+        "file": "guide-to-adopting-humans-best-human"
+      },
+      {
+        "slug": "guide-to-adopting-humans-compatibility",
+        "file": "guide-to-adopting-humans-compatibility"
+      },
+      {
+        "slug": "guide-to-adopting-humans-human-ranking",
+        "file": "guide-to-adopting-humans-human-ranking"
+      },
+      {
+        "slug": "guide-to-adopting-humans-personalities",
+        "file": "guide-to-adopting-humans-personalities"
+      },
+      {
+        "slug": "guide-to-adopting-humans-traits",
+        "file": "guide-to-adopting-humans-traits"
+      },
+      {
+        "slug": "guide-to-adopting-humans-types",
+        "file": "guide-to-adopting-humans-types"
+      }
+    ],
+    "manhwa": [
+      {
+        "slug": "guide-to-adopting-humans-manga",
+        "file": "guide-to-adopting-humans-manga"
+      }
+    ],
+    "process": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-process",
+        "file": "guide-to-adopting-humans-adoption-process"
+      },
+      {
+        "slug": "guide-to-adopting-humans-application-guide",
+        "file": "guide-to-adopting-humans-application-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-checklist",
+        "file": "guide-to-adopting-humans-beginner-checklist"
+      },
+      {
+        "slug": "guide-to-adopting-humans-preparation-guide",
+        "file": "guide-to-adopting-humans-preparation-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-requirements",
+        "file": "guide-to-adopting-humans-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "guide-to-adopting-humans-events",
+        "file": "guide-to-adopting-humans-events"
+      },
+      {
+        "slug": "guide-to-adopting-humans-news",
+        "file": "guide-to-adopting-humans-news"
+      },
+      {
+        "slug": "guide-to-adopting-humans-updates",
+        "file": "guide-to-adopting-humans-updates"
+      }
+    ]
+  },
+  "ko": {
+    "care": [
+      {
+        "slug": "guide-to-adopting-humans-care-guide",
+        "file": "guide-to-adopting-humans-care-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-communication-tips",
+        "file": "guide-to-adopting-humans-communication-tips"
+      },
+      {
+        "slug": "guide-to-adopting-humans-daily-care",
+        "file": "guide-to-adopting-humans-daily-care"
+      },
+      {
+        "slug": "guide-to-adopting-humans-relationship-guide",
+        "file": "guide-to-adopting-humans-relationship-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-training-guide",
+        "file": "guide-to-adopting-humans-training-guide"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-guide",
+        "file": "guide-to-adopting-humans-adoption-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-advanced-guide",
+        "file": "guide-to-adopting-humans-advanced-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-guide",
+        "file": "guide-to-adopting-humans-beginner-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-complete-guide",
+        "file": "guide-to-adopting-humans-complete-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-first-steps",
+        "file": "guide-to-adopting-humans-first-steps"
+      },
+      {
+        "slug": "guide-to-adopting-humans-how-to-adopt",
+        "file": "guide-to-adopting-humans-how-to-adopt"
+      },
+      {
+        "slug": "guide-to-adopting-humans-things-to-know-before-adopting",
+        "file": "guide-to-adopting-humans-things-to-know-before-adopting"
+      },
+      {
+        "slug": "guide-to-adopting-humans-tips-and-tricks",
+        "file": "guide-to-adopting-humans-tips-and-tricks"
+      }
+    ],
+    "housing": [
+      {
+        "slug": "guide-to-adopting-humans-customization-guide",
+        "file": "guide-to-adopting-humans-customization-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-home-setup",
+        "file": "guide-to-adopting-humans-home-setup"
+      },
+      {
+        "slug": "guide-to-adopting-humans-living-space",
+        "file": "guide-to-adopting-humans-living-space"
+      },
+      {
+        "slug": "guide-to-adopting-humans-room-design",
+        "file": "guide-to-adopting-humans-room-design"
+      }
+    ],
+    "humans": [
+      {
+        "slug": "guide-to-adopting-humans-best-human",
+        "file": "guide-to-adopting-humans-best-human"
+      },
+      {
+        "slug": "guide-to-adopting-humans-compatibility",
+        "file": "guide-to-adopting-humans-compatibility"
+      },
+      {
+        "slug": "guide-to-adopting-humans-human-ranking",
+        "file": "guide-to-adopting-humans-human-ranking"
+      },
+      {
+        "slug": "guide-to-adopting-humans-personalities",
+        "file": "guide-to-adopting-humans-personalities"
+      },
+      {
+        "slug": "guide-to-adopting-humans-traits",
+        "file": "guide-to-adopting-humans-traits"
+      },
+      {
+        "slug": "guide-to-adopting-humans-types",
+        "file": "guide-to-adopting-humans-types"
+      }
+    ],
+    "manhwa": [
+      {
+        "slug": "guide-to-adopting-humans-manga",
+        "file": "guide-to-adopting-humans-manga"
+      }
+    ],
+    "process": [
+      {
+        "slug": "guide-to-adopting-humans-adoption-process",
+        "file": "guide-to-adopting-humans-adoption-process"
+      },
+      {
+        "slug": "guide-to-adopting-humans-application-guide",
+        "file": "guide-to-adopting-humans-application-guide"
+      },
+      {
+        "slug": "guide-to-adopting-humans-beginner-checklist",
+        "file": "guide-to-adopting-humans-beginner-checklist"
+      },
+      {
+        "slug": "guide-to-adopting-humans-preparation-guide",
+        "file": "guide-to-adopting-humans-preparation-guide"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "guide-to-adopting-humans-events",
+        "file": "guide-to-adopting-humans-events"
+      },
+      {
+        "slug": "guide-to-adopting-humans-updates",
+        "file": "guide-to-adopting-humans-updates"
+      }
+    ]
+  }
+}
