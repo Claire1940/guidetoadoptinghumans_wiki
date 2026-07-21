@@ -1,7 +1,9 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
-import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle} from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
-import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Steps, Step } from '@/components/mdx/Steps'
 import { Section } from '@/components/mdx/Section'
 
@@ -29,14 +31,12 @@ export const metadata = {
 <Section icon={Swords} title="カスタマイズオプション">
 人間を養子にするガイドには、キャラクターと環境を好みに合わせてカスタマイズできる多くのカスタマイズオプションがあります。衣服やアクセサリーから家具やデコレーションまで、可能性は無限に広がります。以下は考慮すべき主要なカスタマイズオプションです：
 
-<Table>
   | オプション | 説明 |
   |------------|------|
   | 衣服 | あなたのスタイルに合った様々なアウトフィットを選んでください。 |
   | アクセサリー | ハット、眼鏡など、キャラクターをアクセサリーで飾りましょう。 |
   | 家具 | 豊富な家具で生活空間をカスタマイズしてください。 |
   | デコレーション | デコレーションアイテムで環境にテーマ的な要素を加えてください。 |
-</Table>
 </Section>
 
 <Section icon={Trophy} title="カラリング技術">
@@ -58,7 +58,6 @@ export const metadata = {
 <Section icon={Target} title="ツールボックスの基本">
 人間を養子にするガイドでの建築と変更の重要な要素はツールボックスです。以下は、必須ツールの簡単な概要です：
 
-<Table>
   | ツール | 機能 |
   |--------|------|
   | Move | 環境内のオブジェクトを移動します。 |
@@ -67,7 +66,6 @@ export const metadata = {
   | Straight Line | オブジェクトを垂直に移動します。 |
   | Sell | 環境からオブジェクトを削除します。 |
   | Storage | その後の使用のためにアイテムを保存します。 |
-</Table>
 </Section>
 
 <Section icon={Shield} title="環境設定">
@@ -103,7 +101,7 @@ export const metadata = {
 この完全なカスタマイズガイドに従うことで、人間を養子にするガイドで利用可能なカスタマイズオプションの広範な選択肢を探検することができます。あなたのスタイルと好みに合わせたユニークでパーソナライズされた体験を作成してください。楽しい建築をお楽しみください！
 </Section>
 
-<Section icon={FAQ} title="FAQ">
+<Section icon={HelpCircle} title="FAQ">
 <FAQ items={[
   {
     question: "お気に入りの色を保存する方法はどうですか？",

@@ -1,7 +1,9 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
-import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle} from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
-import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Steps, Step } from '@/components/mdx/Steps'
 import { Section } from '@/components/mdx/Section'
 
@@ -29,14 +31,12 @@ Bienvenido a la guía completa de personalización de la adopción de humanos. E
 <Section icon={Swords} title="Opciones de Personalización">
 En Guía de la Adopción de Humanos hay muchas opciones de personalización disponibles, que te permiten ajustar tu personaje y entorno a tus preferencias. Desde la ropa y los accesorios hasta el mobiliario y el decorado, las posibilidades son infinitas. Aquí hay algunas de las opciones de personalización clave a considerar:
 
-<Table>
   | Opción | Descripción |
   |--------|-------------|
   | Ropa | Elige entre una variedad de trajes para adaptarse a tu estilo. |
   | Accesorios | Acessora a tu personaje con sombreros, gafas y más. |
   | Mobiliario | Personaliza tu espacio vital con una amplia variedad de mobiliario. |
   | Decorado | Añade elementos temáticos a tu entorno con artículos de decoración. |
-</Table>
 </Section>
 
 <Section icon={Trophy} title="Técnicas de Coloreado">
@@ -58,7 +58,6 @@ Uno de los aspectos más emocionantes de la personalización es el coloreado. Aq
 <Section icon={Target} title="Fundamentos de la Herramienta">
 La caja de herramientas es un componente crucial para construir y modificar en Guía de la Adopción de Humanos. Aquí hay una breve descripción general de las herramientas esenciales:
 
-<Table>
   | Herramienta | Función |
   |------|----------|
   | Mover | Mueve objetos alrededor de tu entorno. |
@@ -67,7 +66,6 @@ La caja de herramientas es un componente crucial para construir y modificar en G
   | Línea Recta | Mueve objetos verticalmente. |
   | Vender | Elimina objetos de tu entorno. |
   | Almacenamiento | Guarda artículos para usarlos más tarde. |
-</Table>
 </Section>
 
 <Section icon={Shield} title="Configuraciones de Ambiente">
@@ -103,7 +101,7 @@ Ajustar las configuraciones de movimiento y cuadrícula puede hacer que la const
 Siguiendo esta guía completa de personalización, puedes explorar ahora la vasta variedad de opciones de personalización disponibles en Guía de la Adopción de Humanos. Crea una experiencia única y personalizada que se ajuste a tu estilo y preferencias. ¡Disfruta construyendo!
 </Section>
 
-<Section icon={FAQ} title="Preguntas Frecuentes">
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
 <FAQ items={[
   {
     question: "¿Cómo guardo mis colores favoritos?",

@@ -1,7 +1,9 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
-import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle} from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
-import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Steps, Step } from '@/components/mdx/Steps'
 import { Section } from '@/components/mdx/Section'
 
@@ -29,14 +31,12 @@ Welcome to the complete guide to adopting humans customization. This section wil
 <Section icon={Swords} title="Customization Options">
 There are numerous customization options available in Guide to Adopting Humans, allowing you to tailor your character and environment to your preferences. From clothing and accessories to furniture and decor, the possibilities are endless. Here are some of the key customization options to consider:
 
-<Table>
   | Option | Description |
   |--------|-------------|
   | Clothing | Choose from a variety of outfits to suit your style. |
   | Accessories | Accessorize your character with hats, glasses, and more. |
   | Furniture | Customize your living space with a wide range of furniture. |
   | Decor | Add thematic elements to your environment with decor items. |
-</Table>
 </Section>
 
 <Section icon={Trophy} title="Coloring Techniques">
@@ -58,7 +58,6 @@ One of the most exciting aspects of customization is coloring. Here are some adv
 <Section icon={Target} title="Toolbox Basics">
 The toolbox is a crucial component of building and modifying in Guide to Adopting Humans. Here's a brief overview of the essential tools:
 
-<Table>
   | Tool | Function |
   |------|----------|
   | Move | Move objects around your environment. |
@@ -67,7 +66,6 @@ The toolbox is a crucial component of building and modifying in Guide to Adoptin
   | Straight Line | Move objects vertically. |
   | Sell | Remove objects from your environment. |
   | Storage | Save items for later use. |
-</Table>
 </Section>
 
 <Section icon={Shield} title="Ambience Settings">
@@ -103,7 +101,7 @@ Adjusting the movement and grid settings can make building more precise and effi
 By following this complete customization guide, you can now explore the vast array of customization options available in Guide to Adopting Humans. Create a unique and personalized experience that suits your style and preferences. Happy building!
 </Section>
 
-<Section icon={FAQ} title="FAQ">
+<Section icon={HelpCircle} title="FAQ">
 <FAQ items={[
   {
     question: "How do I save my favorite colors?",

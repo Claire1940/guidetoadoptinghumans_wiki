@@ -1,7 +1,9 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
-import { Callout, YouTubeEmbed } from '@/components/mdx';
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle} from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
 import { Card, CardGrid } from '@/components/mdx/CardGrid';
-import { Checklist, FAQ } from '@/components/mdx/Checklist';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
 import { Steps, Step } from '@/components/mdx/Steps';
 import { Section } from '@/components/mdx/Section';
 
@@ -29,14 +31,12 @@ export const metadata = {
 <Section icon={Swords} title="커스터마이제이션 옵션">
 인간 입양 가이드에서는 다양한 커스터마이제이션 옵션이 제공되며, 캐릭터와 환경을 개인의 취향에 맞게 맞춤화할 수 있습니다. 의상과 액세서리부터 가구와 장식에 이르기까지 가능성은 끝없습니다. 고려해야 할 주요 커스터마이제이션 옵션은 다음과 같습니다:
 
-<Table>
   | 옵션 | 설명 |
   |--------|-------------|
   | 의상 | 자신의 스타일에 맞는 다양한 의상을 선택하세요. |
   | 액세서리 | 캐릭터에 캡, 안경 등을 추가하세요. |
   | 가구 | 다양한 가구로 생활 공간을 맞춤화하세요. |
   | 장식 | 장식 아이템을 사용하여 환경에 주제적인 요소를 추가하세요. |
-</Table>
 </Section>
 
 <Section icon={Trophy} title="색상 기술">
@@ -58,7 +58,6 @@ export const metadata = {
 <Section icon={Target} title="툴박스 기본">
 인간 입양 가이드에서 빌드와 수정의 중요한 요소는 툴박스입니다. 필수 도구의 간단한 개요를 소개합니다:
 
-<Table>
   | 도구 | 기능 |
   |------|----------|
   | 이동 | 환경 내의 객체를 이동하세요. |
@@ -67,7 +66,6 @@ export const metadata = {
   | 직선 이동 | 객체를 수직으로 이동하세요. |
   | 판매 | 환경에서 객체를 제거하세요. |
   | 저장 | 나중에 사용하기 위해 아이템을 저장하세요. |
-</Table>
 </Section>
 
 <Section icon={Shield} title="환경 설정">
@@ -103,7 +101,7 @@ export const metadata = {
 이 완벽한 커스터마이제이션 가이드를 따르면, 인간 입양 가이드에서 제공되는 다양한 커스터마이제이션 옵션을 탐구할 수 있습니다. 자신의 스타일과 취향에 맞는 독특하고 개인화된 경험을 만들어보세요. 즐거운 빌드링을 기원합니다!
 </Section>
 
-<Section icon={FAQ} title="FAQ">
+<Section icon={HelpCircle} title="FAQ">
 <FAQ items={[
   {
     question: "좋아하는 색상을 어떻게 저장하나요?",
