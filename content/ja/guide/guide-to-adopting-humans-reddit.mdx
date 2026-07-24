@@ -1,0 +1,104 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "人間を養子にするガイド: 2026年に知っておくべきこと",
+  description: "デジタル時代の成功する養子縁組のために必要な基本的なヒントと洞察を発見してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Adoption+Guide+2026",
+  date: "2026-07-21",
+  author: "人間を養子にするガイド Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **養子縁組のプロセスの理解**: 鍵となる段階と考慮事項を学びます。
+- **感情的な準備**: 養子縁組に向けての準備とその感情的な旅を評価します。
+- **法的側面**: 涉わる法的要件と書類について理解します。
+- **サポートシステム**: 利用可能なリソースとサポートネットワークを発見します。
+- **養子縁組後のケア**: 長期的なケアと調整のための戦略を探ります。
+</Callout>
+
+<Section icon={Map} title="養子縁組のプロセスの理解">
+
+デジタル時代において、人間を養子にすることは複雑でありながら報酬の多い旅となりました。以下はそのプロセスを進めるためのステップバイステップのガイドです：
+
+<Steps>
+  <Step num="1" title="研究と教育">
+    養子縁組のプロセス、法的要件、そして関わる感情的な側面について研究し、教育を受け始めます。さまざまな種類の養子縁組とそれに伴う挑戦について学びます。
+  </Step>
+  <Step num="2" title="評価と評価">
+    養子縁組に向けての準備を確認するための評価と評価プロセスを経ます。これは通常、背後のチェック、インタビュー、トレーニングを含みます。
+  </Step>
+  <Step num="3" title="子供とのマッチング">
+    批可された後、あなたは子供または子供たちとマッチングされます。これは時間がかかることがありますが、それは慎重で考えたプロセスです。
+  </Step>
+  <Step num="4" title="法的最終化">
+    養子縁組の法的プロセスを完了します。これは裁判所の出廷と法的文書の最終化を含みます。
+  </Step>
+  <Step num="5" title="養子縁組後のサポート">
+    養子縁組後は、子供を育てる感情的および実践的な側面に関するサポートシステムとリソースにアクセスすることが非常に重要です。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="感情的および実践的な考慮">
+
+人間を養子にすることは、法的プロセス以上に、感情的および実践的な旅です。以下は重要な考慮事項の一部です：
+
+<Checklist
+  id="adoption-considerations"
+  title="重要な考慮事項:"
+  items={[
+    "養子縁組する親の感情的な準備とサポート",
+    "子供の背景と歴史の理解",
+    "子供と養子縁組する家族の調整期間",
+    "カウンセリングとセラピーのサービスへのアクセス",
+    "子供のための長期的なケアとサポート"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="サポートシステムとリソース">
+
+養子縁組のプロセスを進めることは困難ですが、多くのサポートシステムとリソースが利用可能です：
+
+<Checklist
+  id="support-systems"
+  title="サポートシステム:"
+  items={[
+    "養子縁組機関と組織",
+    "政府の養子縁組サービス",
+    "オンラインコミュニティとフォーラム",
+    "専門のカウンセリングとセラピー",
+    "養子縁組する家族のためのサポートグループ"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "人間を養子にするための法的要件は何ですか？",
+    answer: "法的要件は国や地域によって異なりますが、通常、背後のチェック、インタビュー、養子縁組に向けての準備の評価を含みます。"
+  },
+  {
+    question: "養子縁組のプロセスはどれくらい時間がかかりますか？",
+    answer: "養子縁組のプロセスは、養子縁組の種類と子供の利用可能性によって、数ヶ月から数年までさまざまです。"
+  },
+  {
+    question: "養子縁組する家族に対するサポートは何がありますか？",
+    answer: "養子縁組する家族は、カウンセリング、セラピー、サポートグループ、養子縁組機関と政府サービスが提供するリソースなど、さまざまなサポートシステムにアクセスできます。"
+  }
+]} />
+
+</Section>

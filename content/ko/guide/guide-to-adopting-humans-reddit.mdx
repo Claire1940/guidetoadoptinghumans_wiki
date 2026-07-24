@@ -1,0 +1,104 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "인간 입양 가이드: 2026년에 알아야 할 사항",
+  description: "디지털 시대의 성공적인 입양 여정을 위한 필수적인 팁과 통찰을 발견하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=Adoption+Guide+2026",
+  date: "2026-07-21",
+  author: "인간 입양 가이드 Wiki 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **입양 절차 이해**: 주요 단계와 고려 사항을 배웅하세요.
+- **정서적 준비**: 입양에 대한 준비 상태와 앞으로의 정서적 여정을 평가하세요.
+- **법적 요구 사항**: 관련 법적 요구 사항과 서류 작성에 대해 이해하세요.
+- **지원 시스템**: 사용 가능한 자원과 지원 네트워크를 발견하세요.
+- **입양 후 관리**: 장기적인 관리와 조정 방법을 탐구하세요.
+</Callout>
+
+<Section icon={Map} title="입양 절차 이해">
+
+디지털 시대에 인간을 입양하는 것은 복잡하지만 보상적인 여정이 되었습니다. 이 절차를 따라가는 단계별 가이드를 소개합니다:
+
+<Steps>
+  <Step num="1" title="조사와 교육">
+    입양 절차, 법적 요구 사항, 관련 정서적 요소를 조사하고 교육하세요. 다양한 입양 유형과 발생할 수 있는 도전 사항에 대해 알아보세요.
+  </Step>
+  <Step num="2" title="평가와 평가">
+    입양에 대한 준비 상태를 평가하기 위해 평가와 평가 절차를 거치세요. 이는 대개 배경 조사, 인터뷰 및 훈련을 포함합니다.
+  </Step>
+  <Step num="3" title="아이와의 매칭">
+    승인되면 아이나 아이들과 매칭됩니다. 이는 주의 깊고 신중한 과정이므로 시간이 걸릴 수 있습니다.
+  </Step>
+  <Step num="4" title="법적 최종화">
+    입양의 법적 절차를 완료하세요. 이는 법원 출석과 법적 문서의 최종화를 포함합니다.
+  </Step>
+  <Step num="5" title="입양 후 지원">
+    입양 후, 감정적이고 실질적인 아이 양육에 도움이 되는 지원 시스템과 자원을 접근하세요.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="정서적 및 실질적 고려 사항">
+
+인간을 입양하는 것은 법적 절차뿐만 아니라 정서적이고 실질적인 여정입니다. 다음은 주요 고려 사항입니다:
+
+<Checklist
+  id="adoption-considerations"
+  title="중요한 고려 사항:"
+  items={[
+    "입양 부모의 정서적 준비와 지원",
+    "아이의 배경과 역사 이해",
+    "아이와 입양 가족 모두의 조정 기간",
+    "상담 및 치료 서비스 접근",
+    "아이의 장기적인 관리와 지원"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="지원 시스템 및 자원">
+
+입양 절차를 따라가는 것은 어려울 수 있지만, 많은 지원 시스템과 자원이 있습니다:
+
+<Checklist
+  id="support-systems"
+  title="지원 시스템:"
+  items={[
+    "입양 기관 및 단체",
+    "정부 입양 서비스",
+    "온라인 커뮤니티 및 포럼",
+    "전문 상담 및 치료",
+    "입양 가족을 위한 지원 그룹"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "인간을 입양하는 데 필요한 법적 요구 사항은 무엇인가요?",
+    answer: "법적 요구 사항은 국가와 지역에 따라 다르지만, 일반적으로 배경 조사, 인터뷰 및 입양 준비 평가를 포함합니다."
+  },
+  {
+    question: "입양 절차가 얼마나 걸리나요?",
+    answer: "입양 절차는 입양 유형과 아이의可用성에 따라 몇 개월에서 몇 년까지 걸릴 수 있습니다."
+  },
+  {
+    question: "입양 가족을 위한 지원은 무엇인가요?",
+    answer: "입양 가족은 상담, 치료, 지원 그룹 및 입양 기관과 정부 서비스가 제공하는 자원을 포함한 다양한 지원 시스템을 접근할 수 있습니다."
+  }
+]} />
+
+</Section>

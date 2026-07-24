@@ -1,0 +1,104 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para Adoptar Humanos: Lo que Necesitas Saber en 2026",
+  description: "Descubre consejos esenciales e información para un viaje de adopción exitoso en la era digital.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Adoption+Guide+2026",
+  date: "2026-07-21",
+  author: "Equipo de Wiki para Adoptar Humanos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Entendiendo los Procesos de Adopción**: Aprende las etapas clave y las consideraciones.
+- **Preparación Emocional**: Evalúa tu preparación para adoptar y el viaje emocional por delante.
+- **Aspectos Legales**: Entiende los requisitos legales y la documentación involucrada.
+- **Sistemas de Apoyo**: Descubre los recursos y redes de apoyo disponibles.
+- **Cuidado Post-Adopción**: Explora estrategias para el cuidado a largo plazo y la adaptación.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Proceso de Adopción">
+
+En la era digital, adoptar humanos ha become un viaje complejo pero gratificante. Aquí tienes una guía paso a paso para navegar el proceso:
+
+<Steps>
+  <Step num="1" title="Investigación y Educación">
+    Comienza investigando los procesos de adopción, los requisitos legales y los aspectos emocionales involucrados. Educate yourself sobre los diferentes tipos de adopción y los desafíos que pueden surgir.
+  </Step>
+  <Step num="2" title="Evaluación y Evaluación">
+    Sufre un proceso de evaluación y evaluación para determinar tu preparación para adoptar. Esto a menudo incluye verificaciones de antecedentes, entrevistas y capacitación.
+  </Step>
+  <Step num="3" title="Coincidencia con un Niño">
+    Una vez aprobado, serás coincidido con un niño o niños. Esto puede tomar tiempo, ya que es un proceso cuidadoso y reflexivo.
+  </Step>
+  <Step num="4" title="Finalización Legal">
+    Completa el proceso legal de adopción, que implica apariciones en el tribunal y la finalización de documentos legales.
+  </Step>
+  <Step num="5" title="Apoyo Post-Adopción">
+    Después de la adopción, es crucial acceder a sistemas de apoyo y recursos para ayudar con los aspectos emocionales y prácticos de criar a un niño.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Consideraciones Emocionales y Prácticas">
+
+Adoptar humanos no es solo un proceso legal; es un viaje emocional y práctico. Aquí hay algunas consideraciones clave:
+
+<Checklist
+  id="adoption-considerations"
+  title="Consideraciones Importantes:"
+  items={[
+    "Preparación emocional y apoyo para los padres adoptivos",
+    "Entender el historial y el fondo del niño",
+    "Período de ajuste para el niño y la familia adoptiva",
+    "Acceso a servicios de asesoramiento y terapia",
+    "Cuidado a largo plazo y apoyo para el niño"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Sistemas de Apoyo y Recursos">
+
+Navegar el proceso de adopción puede ser abrumador, pero hay numerosos sistemas de apoyo y recursos disponibles:
+
+<Checklist
+  id="support-systems"
+  title="Sistemas de Apoyo:"
+  items={[
+    "Agencias y organizaciones de adopción",
+    "Servicios de adopción gubernamentales",
+    "Comunidades en línea y foros",
+    "Asesoramiento y terapia profesional",
+    "Grupos de apoyo para familias adoptivas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos legales para adoptar humanos?",
+    answer: "Los requisitos legales varían según el país y la región, pero generalmente incluyen verificaciones de antecedentes, entrevistas y una evaluación de la preparación para adoptar."
+  },
+  {
+    question: "¿Cuánto tiempo dura el proceso de adopción?",
+    answer: "El proceso de adopción puede durar desde unos pocos meses hasta varios años, dependiendo del tipo de adopción y la disponibilidad de niños."
+  },
+  {
+    question: "¿Qué apoyo está disponible para las familias adoptivas?",
+    answer: "Las familias adoptivas pueden acceder a una variedad de sistemas de apoyo, incluyendo asesoramiento, terapia, grupos de apoyo y recursos proporcionados por agencias de adopción y servicios gubernamentales."
+  }
+]} />
+
+</Section>

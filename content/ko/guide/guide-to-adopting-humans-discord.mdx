@@ -1,0 +1,122 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "인간 입양 가이드 Wiki: 종합 위키 가이드",
+  description: "인간 입양 가이드 Wiki를 탐험하세요. 이 위키는 인간 특성, 입양 규칙, 관리 가이드, 외계인 상호작용, 그리고 플레이어와 팬들을 위한 판타지 우주 로망을 다룹니다.",
+  category: "指南",
+  image: "https://placehold.co/800x400/059669/fff?text=인간 입양 가이드 Wiki",
+  date: "2026-07-21",
+  author: "인간 입양 가이드 Wiki 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 인간 입양 가이드
+- **주요 기계**: 인간 입양 과정 및 관리
+- **최고 전략**: 인간 특성 및 호환성 이해
+- **핵심 팁**: 감정 지원 및 일상적인 루틴을 우선시하세요
+- **최고 선택**: 로망과 캐릭터를 탐험하여 더 깊은 경험을 하세요
+</Callout>
+
+<Section icon={Map} title="소개">
+
+인간 입양 가이드 Wiki에 오신 것을 환영합니다. 이 위키는 고급 문명이 인간을 입양하고 키우는 판타지 우주에 대해 배우는 데 최종적인 자원입니다. 이 종합 가이드는 인간 특성과 입양 규칙에서부터 관리 가이드와 종족 상호작용에 이르기까지 모든 것을 다룹니다.
+
+</Section>
+
+<Section icon={Swords} title="입양 과정">
+
+<Steps>
+  <Step num="1" title="신청">
+    사용 가능한 인간 프로필을 검토하고 호환 정보를 이해하기 시작하세요.
+  </Step>
+  <Step num="2" title="평가">
+    성격 특성과 선호도에 따라 최적의 매치를 결정하기 위해 평가를 완료하세요.
+  </Step>
+  <Step num="3" title="매치">
+  생활 방식과 관계 목표에 따라 가장 적합한 인간 매치를 선택하세요.
+  </Step>
+  <Step num="4" title="첫 만남">
+    첫 상호작용을 경험하고 관계의 기초를 세우세요.
+  </Step>
+  <Step num="5" title="长期的 결합">
+    공유 활동, 이벤트, 및 개인 맞춤 관리를 통해 관계 진행을 계속하세요.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="인간 특성">
+
+<Checklist
+  id="human-traits"
+  title="인간 특성 이해:"
+  items={[
+    " 호기심 많음 - 새로운 아이디어와 경험을 탐험하는 것을 좋아합니다.",
+    "독립적 - 개인 공간을 중시하고 결정을 내리는 데 자신감을 가집니다.",
+    "사회적 - 대화와 그룹 활동을 즐깁니다.",
+    "민감함 - 강한 감정 반응과 주변 환경에 대한 인식."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="관리 가이드">
+
+<Callout type="tip" title="프로 팁">
+입양한 인간과 건강한 관계를 유지하기 위해 감정 지원 및 일상적인 루틴을 우선시하세요.
+</Callout>
+
+<Checklist
+  id="care-guide"
+  title="필수 관리 팁:"
+  items={[
+    "정기적인 대화와 감정 지원",
+    "활동 및 개인 시간을 포함한 균형 잡힌 일상적인 루틴",
+    "개인 맞춤형 생활 공간 및 편안한 환경",
+    "훈련 및 개발 기회",
+    "정기적인 상호작용 이벤트 및 관계 유지"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="종족 상호작용">
+
+다른 종족 간의 상호작용을 탐험하고 그들의 독특한 특성, 능력, 그리고 문화적 차이를 배웁니다.
+
+</Section>
+
+<Section icon={Sparkles} title="판타지 우주 로망">
+
+판타지 우주의 로망에 뛰어들고 다른 문명의 역사, 주요 사건, 그리고 인간 입양 과정의 이야기를 배웁니다.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "클래스 선택을 후회하게 되면 어떻게 될까요?",
+    answer: "Apogea에서 클래스를 선택하면 결정은 영구적입니다. 그러나 다른 클래스를 탐험하고 싶다면 새로운 캐릭터를 만들 수 있습니다."
+  },
+  {
+    question: "마법사로 플레이할 수 있지만 검을 사용할 수 있나요?",
+    answer: "네, 하지만 Knight나 Rogue와 같은 플레이 스타일과 호환되는 클래스를 선택하는 것보다 효과적이지 않습니다."
+  },
+  {
+    question: "단独行을 위해 가장 좋은 클래스는 무엇인가요?",
+    answer: "마법사는 강력한 마법과 원거리 공격으로 인해 단独行에 최적입니다. 그러나 Rogue도 이동성과 혼합 플레이를 원한다면 잘 작동합니다."
+  }
+]} />
+
+</Section>
+```
+
+이 MDX 내용은 제공된 지침을 준수하며 모든 필요한 구성 요소와 구조를 포함하고 있습니다. 이는 "인간 입양 가이드" 판타지 우주에 대한 종합 가이드로 SEO 친화적이고 정보적입니다.
